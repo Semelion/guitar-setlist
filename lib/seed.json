@@ -1,0 +1,2912 @@
+[
+  {
+    "id": "song-001",
+    "artist": "7Б",
+    "title": "Молодые ветра",
+    "category": "ru",
+    "priority": true,
+    "url": "https://akkords.pro/songs/7b/molodye-vetra/",
+    "extra_url": "https://akkords.pro/songs/7b/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-002",
+    "artist": "Anacondaz",
+    "title": "Дубак",
+    "category": "ru",
+    "priority": false,
+    "url": "https://guitarflow.ru/songs/anacondaz/dubak/",
+    "extra_url": "https://www.youtube.com/watch?v=T64f57OIyyY",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-003",
+    "artist": "Anacondaz",
+    "title": "Наивность",
+    "category": "ru",
+    "priority": false,
+    "url": "https://guitary.pro/chords/eng/a/anacondaz/anacondaz-naivnost-akkordy-dlya-gitary/",
+    "extra_url": "https://www.5lad.ru/akkordy/anacondaz/naivnost",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-004",
+    "artist": "Animal ДжаZ",
+    "title": "Три полоски",
+    "category": "ru",
+    "priority": false,
+    "url": "https://guitar-master.org/animal-dzhaz-tri-poloski-accordi-i-tekst/",
+    "extra_url": "https://pereborom.ru/tri-poloski-akkordy/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-005",
+    "artist": "BrainStorm",
+    "title": "Ветер",
+    "category": "ru",
+    "priority": false,
+    "url": "https://akkords.pro/songs/brainstorm/veter-2/",
+    "extra_url": "https://chordhub.ru/brainstorm/veter/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-006",
+    "artist": "COMEDOZ, Павел Радонцев, Денис Гущин",
+    "title": "Ямайка",
+    "category": "ru",
+    "priority": false,
+    "url": "https://akkords.pro/songs/comedoz/yamayka/",
+    "extra_url": "https://akkordam.ru/razbory/popular/comedoz-jamajka",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-007",
+    "artist": "Dabro",
+    "title": "На часах ноль-ноль",
+    "category": "ru",
+    "priority": false,
+    "url": "https://akkords.pro/songs/dabro/na-chasah-nol-nol/",
+    "extra_url": "https://amdm.one/dabro/na-chasah-nol-nol/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-008",
+    "artist": "Green Apelsin",
+    "title": "Охота на лисицу",
+    "category": "ru",
+    "priority": false,
+    "url": "https://akkords.pro/songs/green-apelsin/ohota-na-lisitsu/",
+    "extra_url": "https://mytabs.ru/akkordy/g/green-apelsin/ohota-na-lisicu_446416.html",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-009",
+    "artist": "Lizer",
+    "title": "Пачка сигарет",
+    "category": "ru",
+    "priority": false,
+    "url": "https://akkords.pro/songs/lizer/pachka-sigaret-v-mojom-karmane/",
+    "extra_url": "https://nagitaru.ru/lizer-pachka-sigaret-akkordy/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-010",
+    "artist": "Lumen",
+    "title": "Sid & Nancy",
+    "category": "ru",
+    "priority": false,
+    "url": "https://akkords.pro/songs/lumen/sid-i-nensi/",
+    "extra_url": "https://nagitaru.ru/sid-i-nensi-lyumen-ak/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-011",
+    "artist": "Lumen",
+    "title": "Гореть",
+    "category": "ru",
+    "priority": false,
+    "url": "https://akkords.pro/songs/lumen/goret/",
+    "extra_url": "https://www.youtube.com/watch?v=UM59o4yHju4",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-012",
+    "artist": "Nautilus Pompilius",
+    "title": "Дыхание",
+    "category": "ru",
+    "priority": false,
+    "url": "https://akkords.pro/songs/nautilus-pompilius/dyhanie/",
+    "extra_url": "https://amdm.one/nautilus-pompilius/dyhanie/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-013",
+    "artist": "Nautilus Pompilius",
+    "title": "Крылья",
+    "category": "ru",
+    "priority": false,
+    "url": "https://akkords.pro/songs/nautilus-pompilius/krylya/",
+    "extra_url": "https://amdm.one/nautilus-pompilius/krylya/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-014",
+    "artist": "Nautilus Pompilius",
+    "title": "Прогулки по воде",
+    "category": "ru",
+    "priority": false,
+    "url": "https://akkords.pro/songs/nautilus-pompilius/progulki-po-vode/",
+    "extra_url": "https://amdm.one/nautilus-pompilius/progulki-po-vode/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-015",
+    "artist": "Nautilus Pompilius",
+    "title": "Скованные одной цепью",
+    "category": "ru",
+    "priority": false,
+    "url": "https://akkords.pro/songs/nautilus-pompilius/skovannye-odnoy-tsepyu/",
+    "extra_url": "https://akkordam.ru/razbory/nautilus-pompilius-skovannye-odnoj-cepju/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-016",
+    "artist": "Noize MC",
+    "title": "Вселенная бесконечна?",
+    "category": "ru",
+    "priority": false,
+    "url": "https://guitar-master.org/noize-mc-vselennaya-beskonechna-accordi-i-tekst/",
+    "extra_url": "https://akkords.pro/songs/noize-mc/vselennaya-beskonechna/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-017",
+    "artist": "Noize MC",
+    "title": "На Марсе классно",
+    "category": "ru",
+    "priority": false,
+    "url": "https://lalatracker.com/chords/noize_mc/5b0077dc2fdcc21144cffca7-na_marse_klassno",
+    "extra_url": "https://www.youtube.com/watch?v=Jdxa1lzXJ6I",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-018",
+    "artist": "Noize MC",
+    "title": "Страна дождей",
+    "category": "ru",
+    "priority": false,
+    "url": "https://www.mazmazika.com/ru/chordanalyzer/noize-mc-songs/%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B0-%D0%B4%D0%BE%D0%B6%D0%B4%D0%B5%D0%B9-chords",
+    "extra_url": "https://www.youtube.com/watch?v=AX6Y3JCZKx4",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-019",
+    "artist": "Noize MC, Atlantida Project",
+    "title": "Иордан",
+    "category": "ru",
+    "priority": false,
+    "url": "https://pro-gitaru.ru/nojz-akkordy-iordan/",
+    "extra_url": "https://www.youtube.com/watch?v=WEsIrjJP5aI",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-020",
+    "artist": "PIZZA",
+    "title": "Лифт",
+    "category": "ru",
+    "priority": false,
+    "url": "https://akkords.pro/songs/pizza/lift/",
+    "extra_url": "https://akkordam.ru/picca-lift/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-021",
+    "artist": "PIZZA",
+    "title": "Оружие",
+    "category": "ru",
+    "priority": false,
+    "url": "https://akkords.pro/songs/pizza/oruzhie/",
+    "extra_url": "https://akkordam.ru/picca-oruzhie/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-022",
+    "artist": "PIZZA",
+    "title": "Романс",
+    "category": "ru",
+    "priority": false,
+    "url": "https://akkords.pro/songs/pizza/romans-2/",
+    "extra_url": "https://pro-gitaru.ru/picca-romans-akkordy/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-023",
+    "artist": "Uma2rman",
+    "title": "Прасковья",
+    "category": "ru",
+    "priority": false,
+    "url": "https://akkordov.net/akkordi/uma2rman/659602-praskovya",
+    "extra_url": "https://gitarizm.ru/akkords/umaturman-proskovya",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-024",
+    "artist": "XOLIDAYBOY",
+    "title": "Пожары",
+    "category": "ru",
+    "priority": false,
+    "url": "https://mychords.net/xolidayboy/244546-xolidayboy-pozhary.html",
+    "extra_url": "https://www.youtube.com/watch?v=qYbfs5jUW5U",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-025",
+    "artist": "zhanulka",
+    "title": "Ты похож на кота",
+    "category": "ru",
+    "priority": false,
+    "url": "https://akkords.pro/songs/zhanulka/ty-pohozh-na-kota/",
+    "extra_url": "https://guitarflow.ru/songs/zhanulka/ty-pohozh-na-kota/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-026",
+    "artist": "ZOLOTO",
+    "title": "Непроизошло",
+    "category": "ru",
+    "priority": true,
+    "url": "https://ru.muzland.ru/songs.html?auth=1114&song=2",
+    "extra_url": "https://www.ukulell.ru/authors/z-en/zoloto/zoloto-neproizoshlo/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-027",
+    "artist": "Агата Кристи",
+    "title": "Как на войне",
+    "category": "ru",
+    "priority": true,
+    "url": "https://akkordam.ru/publ/razbor_populjarnykh_pesen/ljag_otdokhni_i_poslushaj_akkordy_kak_igrat_na_gitare/5-1-0-1415",
+    "extra_url": "https://akkords.pro/songs/agata-kristi/kak-na-vojne/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-028",
+    "artist": "Александр Иванов",
+    "title": "Боже, какой пустяк",
+    "category": "ru",
+    "priority": false,
+    "url": "https://akkords.pro/songs/aleksandr-ivanov/bozhe-kakoy-pustyak/",
+    "extra_url": "https://akkordam.ru/razbory/popular/aleksandr-ivanov-bozhe-kakoj-pustjak/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-029",
+    "artist": "Алексей Понамарев",
+    "title": "А мы не ангелы, парень",
+    "category": "ru",
+    "priority": false,
+    "url": "https://akkords.pro/songs/aleksej-ponamarjov/my-ne-angely-paren/",
+    "extra_url": "https://motor-t.ru/akkords/aleksey-ponomaryov/92863/a-my-ne-angely-paren/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-030",
+    "artist": "Алиса",
+    "title": "Трасса Е-95",
+    "category": "ru",
+    "priority": false,
+    "url": "https://akkords.pro/songs/alisa/trassa-e-95/",
+    "extra_url": "https://akkordam.ru/alisa-trassa-e-95/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-031",
+    "artist": "АнимациЯ, Костя Кулясов",
+    "title": "Родина",
+    "category": "ru",
+    "priority": false,
+    "url": "https://akkords.pro/songs/animatsiya/rodina-3/",
+    "extra_url": "https://guitarflow.ru/songs/animatsiya/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-032",
+    "artist": "Ария",
+    "title": "Беспечный ангел",
+    "category": "ru",
+    "priority": true,
+    "url": "https://akkords.pro/songs/arija/bespechnyj-angel/",
+    "extra_url": "https://www.youtube.com/watch?v=wcs91WoHRGs",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-033",
+    "artist": "Ария",
+    "title": "Штиль",
+    "category": "ru",
+    "priority": true,
+    "url": "https://nagitaru.ru/ariya-shtil-akkordyi/",
+    "extra_url": "https://gitarizm.ru/akkords/4045-ariya-shtil",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-034",
+    "artist": "Баста",
+    "title": "На заре — «Альянс» cover",
+    "category": "ru",
+    "priority": false,
+    "url": "https://chordhub.ru/basta/na-zare/",
+    "extra_url": "https://www.youtube.com/watch?v=1zrH9nUpuqI",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-035",
+    "artist": "Баста, Диана Арбенина, Александр Ф. Скляр, Сергей Бобунец, SunSay, Скриптонит",
+    "title": "Сансара",
+    "category": "ru",
+    "priority": true,
+    "url": "https://chordrive.ru/chords/basta-songs/sansara-chords/",
+    "extra_url": "https://www.youtube.com/watch?v=RsxcHeBRajg",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-036",
+    "artist": "Би-2",
+    "title": "Компромисс",
+    "category": "ru",
+    "priority": false,
+    "url": "https://nagitaru.ru/bi-2-kompromiss-akkordy/",
+    "extra_url": "https://www.youtube.com/watch?v=GCxBADhA8bA",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-037",
+    "artist": "Би-2",
+    "title": "Полковнику никто не пишет",
+    "category": "ru",
+    "priority": false,
+    "url": "https://akkords.pro/songs/bi-2/polkovniku-nikto-ne-pishet/",
+    "extra_url": "https://pereborom.ru/polkovniku-nikto-ne-pishet-akkordy-bi-2/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-038",
+    "artist": "Бонд с кнопкой",
+    "title": "Кухни",
+    "category": "ru",
+    "priority": true,
+    "url": "https://pro-gitaru.ru/bond-s-knopkoy-kuhni/",
+    "extra_url": "https://www.youtube.com/watch?v=0LzFUtwqVM4",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-039",
+    "artist": "Браво",
+    "title": "Дорога в облака",
+    "category": "ru",
+    "priority": false,
+    "url": "https://akkords.pro/songs/bravo/doroga-v-oblaka/",
+    "extra_url": "https://gitarizm.ru/akkords/5578-bravo-doroga-v-oblaka",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-040",
+    "artist": "Браво",
+    "title": "Любите, девушки",
+    "category": "ru",
+    "priority": false,
+    "url": "https://akkords.pro/songs/bravo/ljubite-devushki/",
+    "extra_url": "https://xn--80aahsbi1ccix.xn--p1ai/%D0%B1%D1%80%D0%B0%D0%B2%D0%BE/%D0%BB%D1%8E%D0%B1%D0%B8%D1%82%D0%B5-%D0%B4%D0%B5%D0%B2%D1%83%D1%88%D0%BA%D0%B8/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-041",
+    "artist": "Бумбокс",
+    "title": "Вахтёрам",
+    "category": "ru",
+    "priority": true,
+    "url": "https://akkords.pro/songs/bumboks/vaxteram/",
+    "extra_url": "https://guitar-master.org/boombox-vahteram-accordi-i-tekst/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-042",
+    "artist": "Ваня Дмитриенко",
+    "title": "Шёлк",
+    "category": "ru",
+    "priority": true,
+    "url": "https://guitarfightclub.ru/chords/vanya-dmitrienko-shyolk/",
+    "extra_url": "https://guitar-uke.com/ru/gitara/singer/vanja_dmitrienko_shjelk/14019.html",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-043",
+    "artist": "Веня Д’ркин",
+    "title": "Самолётик",
+    "category": "ru",
+    "priority": false,
+    "url": "https://www.gitaristu.ru/accords/letter/rus_v/venya_drkin/samoletik",
+    "extra_url": "https://www.chords-and-tabs.net/song/name/venya-drkin-samoletik",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-044",
+    "artist": "Високосный Год",
+    "title": "Тихий огонек",
+    "category": "ru",
+    "priority": false,
+    "url": "https://guitary.pro/chords/rus/v-akkordy/visokosnyj-god/visokosnyj-god-tixij-ogonek-akkordy-dlya-gitary/",
+    "extra_url": "https://www.youtube.com/watch?v=04dRBPuNDG4",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-045",
+    "artist": "Владимир Клявин",
+    "title": "Планы",
+    "category": "ru",
+    "priority": true,
+    "url": "https://lalatracker.com/chords/vladimir_klyavin/6671d17af3e2cddf47888b3f-plany",
+    "extra_url": "https://www.youtube.com/watch?v=GiJcmVCk5Ew",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-046",
+    "artist": "Город 312",
+    "title": "Вне зоны доступа",
+    "category": "ru",
+    "priority": false,
+    "url": "https://lalatracker.com/chords/gorod_312/5b7346475b45d41de036fa9b-vne_zony_dostupa",
+    "extra_url": "https://www.youtube.com/watch?v=JuDtFyo-1wM",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-047",
+    "artist": "Градусы",
+    "title": "Голая",
+    "category": "ru",
+    "priority": false,
+    "url": "https://akkords.pro/songs/gradusy/golaya/",
+    "extra_url": "https://akkordus.ru/songwriter/gradusy/golaya",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-048",
+    "artist": "Градусы",
+    "title": "Режиссер",
+    "category": "ru",
+    "priority": false,
+    "url": "https://akkords.pro/songs/gradusy/rezhissyor/",
+    "extra_url": "https://chordhub.ru/akkords/gradusy/rezhisser/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-049",
+    "artist": "Гражданская оборона",
+    "title": "Всё как у людей",
+    "category": "ru",
+    "priority": false,
+    "url": "https://akkords.pro/songs/grob/vsyo-kak-u-lyudey/",
+    "extra_url": "https://pro-gitaru.ru/vsyo-kak-u-lyudey/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-050",
+    "artist": "Гражданская оборона",
+    "title": "Зоопарк",
+    "category": "ru",
+    "priority": false,
+    "url": "https://akkords.pro/songs/grob/zoopark/",
+    "extra_url": "https://akkordam.ru/razbory/popular/grazhdanskaja-oborona-zoopark",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-051",
+    "artist": "Гражданская оборона",
+    "title": "Отряд не заметил потери бойца",
+    "category": "ru",
+    "priority": false,
+    "url": "https://akkords.pro/songs/grob/otryad-ne-zametil-poteri-boytsa/",
+    "extra_url": "https://xn--80aahsbi1ccix.xn--p1ai/%D0%B3%D1%80%D0%B0%D0%B6%D0%B4%D0%B0%D0%BD%D1%81%D0%BA%D0%B0%D1%8F-%D0%BE%D0%B1%D0%BE%D1%80%D0%BE%D0%BD%D0%B0/%D0%BE%D1%82%D1%80%D1%8F%D0%B4-%D0%BD%D0%B5-%D0%B7%D0%B0%D0%BC%D0%B5%D1%82%D0%B8%D0%BB-%D0%BF%D0%BE%D1%82%D0%B5%D1%80%D0%B8-%D0%B1%D0%BE%D0%B9%D1%86%D0%B0/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-052",
+    "artist": "Гражданская оборона",
+    "title": "Про дурачка",
+    "category": "ru",
+    "priority": false,
+    "url": "https://akkords.pro/songs/grob/pro-durachka/",
+    "extra_url": "https://chordhub.ru/akkords/grazhdanskaya-oborona/pro-durachka/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-053",
+    "artist": "гречка",
+    "title": "Люби меня люби",
+    "category": "ru",
+    "priority": false,
+    "url": "https://akkords.pro/songs/grechka/ljubi-menja-ljubi/",
+    "extra_url": "https://www.youtube.com/watch?v=WLrfY5sy-QQ",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-054",
+    "artist": "Дайте танк (!)",
+    "title": "Летние вечера",
+    "category": "ru",
+    "priority": false,
+    "url": "https://chordhub.ru/dayte-tank/letniye-vechera/",
+    "extra_url": "https://www.youtube.com/watch?v=hfpJS8o2xzA",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-055",
+    "artist": "Дайте танк (!)",
+    "title": "Люди",
+    "category": "ru",
+    "priority": true,
+    "url": "https://guitarflow.ru/songs/dayte-tank/",
+    "extra_url": "https://www.youtube.com/watch?v=sRhV0QOo7O8",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-056",
+    "artist": "Дайте танк (!)",
+    "title": "Маленький",
+    "category": "ru",
+    "priority": true,
+    "url": "https://akkords.pro/songs/dajte-tank/malenkiy/",
+    "extra_url": "https://www.youtube.com/watch?v=2j0_8Z4p4hE",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-057",
+    "artist": "Дайте танк (!)",
+    "title": "Мы",
+    "category": "ru",
+    "priority": false,
+    "url": "https://nagitaru.ru/dajte-tank-my-akkordy/",
+    "extra_url": "https://xn--80aahsbi1ccix.xn--p1ai/%D0%B4%D0%B0%D0%B9%D1%82%D0%B5-%D1%82%D0%B0%D0%BD%D0%BA/%D0%BC%D1%8B/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-058",
+    "artist": "Дайте танк (!)",
+    "title": "Утро",
+    "category": "ru",
+    "priority": false,
+    "url": "https://akkords.pro/songs/dajte-tank/utro/",
+    "extra_url": "https://guitarflow.ru/songs/dayte-tank/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-059",
+    "artist": "Дайте танк (!)",
+    "title": "Я",
+    "category": "ru",
+    "priority": false,
+    "url": "https://guitarfightclub.ru/chords/dayte-tank-ya/",
+    "extra_url": "https://akkords.pro/songs/dajte-tank/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-060",
+    "artist": "ДДТ",
+    "title": "Просвистела",
+    "category": "ru",
+    "priority": true,
+    "url": "https://akkords.pro/songs/ddt/prosvistela/",
+    "extra_url": "https://guitardo.ru/blog/razbor-pesni-ddt-prosvistela/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-061",
+    "artist": "ДДТ",
+    "title": "Что такое осень",
+    "category": "ru",
+    "priority": true,
+    "url": "https://akkords.pro/songs/ddt/chto-takoe-osen/",
+    "extra_url": "https://chordzilla.ru/ddt/chto-takoe-osen/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-062",
+    "artist": "ДДТ",
+    "title": "Это всё…",
+    "category": "ru",
+    "priority": true,
+    "url": "https://akkords.pro/songs/ddt/eto-vsyo/",
+    "extra_url": "https://www.youtube.com/watch?v=TiK5-hbk9vE",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-063",
+    "artist": "Джанго",
+    "title": "Босая осень",
+    "category": "ru",
+    "priority": false,
+    "url": "https://chordhub.ru/dzhango/bosaya-osen/",
+    "extra_url": "https://www.youtube.com/watch?v=-GJellfi7JY",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-064",
+    "artist": "Дора",
+    "title": "Втюрилась",
+    "category": "ru",
+    "priority": false,
+    "url": "https://akkords.pro/songs/dora/vtyurilas/",
+    "extra_url": "https://akkordam.ru/dora-vtyurilas",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-065",
+    "artist": "Дора",
+    "title": "Дорадура",
+    "category": "ru",
+    "priority": false,
+    "url": "https://akkords.pro/songs/dora/doradura/",
+    "extra_url": "https://www.youtube.com/watch?v=UfkFxxOPrr4",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-066",
+    "artist": "Дурной Вкус",
+    "title": "Пластинки",
+    "category": "ru",
+    "priority": false,
+    "url": "https://akkords.pro/songs/durnoy-vkus/plastinki/",
+    "extra_url": "https://akkords.pro/songs/durnoy-vkus/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-067",
+    "artist": "Егор Летов",
+    "title": "Всё идёт по плану",
+    "category": "ru",
+    "priority": false,
+    "url": "https://chordzilla.ru/grazhdanskaya-oborona/vsyo-idyot-po-planu/",
+    "extra_url": "https://akkords.pro/songs/grob/vsyo-idyot-po-planu/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-068",
+    "artist": "Егор Летов",
+    "title": "Моя оборона",
+    "category": "ru",
+    "priority": false,
+    "url": "https://amdm.one/grazhdanskaya-oborona/moya-oborona/",
+    "extra_url": "https://nagitaru.ru/letov-moya-oborona-akkordy/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-069",
+    "artist": "Екатерина Яшникова",
+    "title": "Вернуться",
+    "category": "ru",
+    "priority": false,
+    "url": "https://ru2.guitarsongs.club/song/46734",
+    "extra_url": "https://www.youtube.com/watch?v=3tLl4YtfBak",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-070",
+    "artist": "Женя Трофимов, Комната культуры",
+    "title": "Поезда",
+    "category": "ru",
+    "priority": true,
+    "url": "https://mychords.net/komnata-kultury/216692-enya-trofimov-komnata-kultury-poezda.html",
+    "extra_url": "https://www.youtube.com/watch?v=4eBSLqDiswk",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-071",
+    "artist": "Жуки",
+    "title": "Батарейка",
+    "category": "ru",
+    "priority": true,
+    "url": "https://chordzilla.ru/zhuki/batareyka/",
+    "extra_url": "https://guitardo.ru/blog/razbor-pesni-zhuki-batarejka/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-072",
+    "artist": "Жуки",
+    "title": "Танкист",
+    "category": "ru",
+    "priority": false,
+    "url": "https://akkords.pro/songs/zhuki/tankist/",
+    "extra_url": "https://nagitaru.ru/zhuki-tankist-akkordy/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-073",
+    "artist": "Звери",
+    "title": "До скорой встречи!",
+    "category": "ru",
+    "priority": true,
+    "url": "https://akkords.pro/songs/zveri/do-skoroy-vstrechi/",
+    "extra_url": "https://amdm.one/zveri/do-skoroy-vstrechi/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-074",
+    "artist": "Звери",
+    "title": "Напитки покрепче",
+    "category": "ru",
+    "priority": false,
+    "url": "https://akkords.pro/songs/zveri/napitki-pokrepche/",
+    "extra_url": "https://gitarizm.ru/akkords/zveri-napitki-po-krepche",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-075",
+    "artist": "Звери",
+    "title": "Просто такая сильная любовь",
+    "category": "ru",
+    "priority": false,
+    "url": "https://akkords.pro/songs/zveri/prosto-takaya-silnaya-lyubov/",
+    "extra_url": "https://xn--80aahsbi1ccix.xn--p1ai/%D0%B7%D0%B2%D0%B5%D1%80%D0%B8/%D0%BF%D1%80%D0%BE%D1%81%D1%82%D0%BE-%D1%82%D0%B0%D0%BA%D0%B0%D1%8F-%D1%81%D0%B8%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F-%D0%BB%D1%8E%D0%B1%D0%BE%D0%B2%D1%8C/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-076",
+    "artist": "Звери",
+    "title": "Районы-кварталы",
+    "category": "ru",
+    "priority": true,
+    "url": "https://akkords.pro/songs/zveri/rajony-kvartaly/",
+    "extra_url": "https://guitardo.ru/blog/razbor-pesni-zveri-rajony-kvartaly/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-077",
+    "artist": "Земляне",
+    "title": "Трава у дома",
+    "category": "ru",
+    "priority": false,
+    "url": "https://akkords.pro/songs/zemlyane/trava-u-doma/",
+    "extra_url": "https://motor-t.ru/akkords/zemlyane/745/trava-u-doma/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-078",
+    "artist": "Земфира",
+    "title": "Искала",
+    "category": "ru",
+    "priority": false,
+    "url": "https://akkords.pro/songs/zemfira/iskala/",
+    "extra_url": "https://gitarizm.ru/akkords/zemfira-iskala",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-079",
+    "artist": "Земфира",
+    "title": "ХОЧЕШЬ?",
+    "category": "ru",
+    "priority": false,
+    "url": "https://akkords.pro/songs/zemfira/hochesh/",
+    "extra_url": "https://guitar-master.org/zemfira-hochesh-accordi-i-tekst/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-080",
+    "artist": "Земфира",
+    "title": "∞ (Бесконечность)",
+    "category": "ru",
+    "priority": false,
+    "url": "https://akkords.pro/songs/zemfira/beskonechnost/",
+    "extra_url": "https://akkords.online/akkordy/zemfira/beskonechnost/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-081",
+    "artist": "КИНО",
+    "title": "Алюминиевые огурцы",
+    "category": "ru",
+    "priority": false,
+    "url": "https://akkords.pro/songs/kino/aljuminievye-ogurcy/",
+    "extra_url": "https://guitar-master.org/kino-aluminievie-ogurci-akkordi-i-tekst/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-082",
+    "artist": "КИНО",
+    "title": "Восьмиклассница",
+    "category": "ru",
+    "priority": true,
+    "url": "https://chordzilla.ru/kino/vosmiklassnitsa/",
+    "extra_url": "https://www.youtube.com/watch?v=11prNijClrs",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-083",
+    "artist": "КИНО",
+    "title": "Группа крови",
+    "category": "ru",
+    "priority": true,
+    "url": "https://akkords.pro/songs/kino/gruppa-krovi/",
+    "extra_url": "https://www.youtube.com/watch?v=kJ38vLxMo18",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-084",
+    "artist": "КИНО",
+    "title": "Закрой за мной дверь, я ухожу",
+    "category": "ru",
+    "priority": false,
+    "url": "https://akkords.pro/songs/kino/zakroj-za-mnoj-dver/",
+    "extra_url": "https://www.youtube.com/watch?v=JJd7d5PCLa4",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-085",
+    "artist": "КИНО",
+    "title": "Звезда по имени Солнце",
+    "category": "ru",
+    "priority": true,
+    "url": "https://akkords.pro/songs/kino/zvezda-po-imeni-solnce/",
+    "extra_url": "https://www.youtube.com/watch?v=qzBb8vReNRg",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-086",
+    "artist": "КИНО",
+    "title": "Красно-жёлтые дни",
+    "category": "ru",
+    "priority": false,
+    "url": "https://akkords.pro/songs/kino/krasno-zhyoltye-dni/",
+    "extra_url": "https://www.youtube.com/watch?v=oWlCMGncH3s",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-087",
+    "artist": "КИНО",
+    "title": "Мама-анархия",
+    "category": "ru",
+    "priority": false,
+    "url": "https://akkords.pro/songs/kino/mama-anarhija/",
+    "extra_url": "https://nagitaru.ru/mama-anarhiya-kino-akkordy/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-088",
+    "artist": "КИНО",
+    "title": "Муравейник",
+    "category": "ru",
+    "priority": false,
+    "url": "https://poakkordam.com/kino-muraveynik-akkordy",
+    "extra_url": "https://guitarflow.ru/songs/kino/muraveynik/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-089",
+    "artist": "КИНО",
+    "title": "Пачка сигарет",
+    "category": "ru",
+    "priority": true,
+    "url": "https://akkords.pro/songs/kino/pachka-sigaret/",
+    "extra_url": "https://guitardo.ru/blog/razbor-pesni-kino-pachka-sigaret/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-090",
+    "artist": "КИНО",
+    "title": "Перемен",
+    "category": "ru",
+    "priority": true,
+    "url": "https://akkords.pro/songs/kino/peremen/",
+    "extra_url": "https://amdm.one/kino/peremen/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-091",
+    "artist": "КИНО",
+    "title": "Последний герой",
+    "category": "ru",
+    "priority": false,
+    "url": "https://muzikroom.ru/blog/poslednij-geroj-kino-akkordy-na-gitare/",
+    "extra_url": "https://akkords.pro/songs/kino/poslednij-geroj/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-092",
+    "artist": "КИНО",
+    "title": "Стук",
+    "category": "ru",
+    "priority": false,
+    "url": "https://akkords.pro/songs/kino/stuk/",
+    "extra_url": "https://amdm.one/kino/stuk/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-093",
+    "artist": "Кипелов",
+    "title": "Я свободен",
+    "category": "ru",
+    "priority": true,
+    "url": "https://guitar-master.org/kipelov-ya-svoboden-accordi-i-tekst/",
+    "extra_url": "https://akkords.pro/songs/kipelov/ja-svoboden/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-094",
+    "artist": "Король и Шут",
+    "title": "Ведьма и осёл",
+    "category": "ru",
+    "priority": false,
+    "url": "https://akkords.pro/songs/korol-i-shut/vedma-i-osyol/",
+    "extra_url": "https://amdm.one/korol-i-shut/vedma-i-osyol/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-095",
+    "artist": "Король и Шут",
+    "title": "Дурак и молния",
+    "category": "ru",
+    "priority": false,
+    "url": "https://akkords.pro/songs/korol-i-shut/durak-i-molnija/",
+    "extra_url": "https://amdm.one/korol-i-shut/durak-i-molniya/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-096",
+    "artist": "Король и Шут",
+    "title": "Ели мясо мужики",
+    "category": "ru",
+    "priority": false,
+    "url": "https://akkords.pro/songs/korol-i-shut/eli-myaso-muzhiki/",
+    "extra_url": "https://www.youtube.com/watch?v=H_lCkw4zK_I",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-097",
+    "artist": "Король и Шут",
+    "title": "Камнем по голове",
+    "category": "ru",
+    "priority": true,
+    "url": "https://chordzilla.ru/korol-i-shut/kamnem-po-golove/",
+    "extra_url": "https://xn--80aahsbi1ccix.xn--p1ai/%D0%BA%D0%BE%D1%80%D0%BE%D0%BB%D1%8C-%D0%B8-%D1%88%D1%83%D1%82/%D0%BA%D0%B0%D0%BC%D0%BD%D0%B5%D0%BC-%D0%BF%D0%BE-%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%B5/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-098",
+    "artist": "Король и Шут",
+    "title": "Кукла колдуна",
+    "category": "ru",
+    "priority": true,
+    "url": "https://akkords.pro/songs/korol-i-shut/kukla-kolduna/",
+    "extra_url": "https://www.youtube.com/watch?v=rdClFPOqwQ0",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-099",
+    "artist": "Король и Шут",
+    "title": "Лесник",
+    "category": "ru",
+    "priority": true,
+    "url": "https://akkords.pro/songs/korol-i-shut/lesnik/",
+    "extra_url": "https://chordzilla.ru/korol-i-shut/lesnik/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-100",
+    "artist": "Король и Шут",
+    "title": "Марионетки",
+    "category": "ru",
+    "priority": false,
+    "url": "https://akkords.pro/songs/korol-i-shut/marionetki/",
+    "extra_url": "https://akkordam.ru/razbory/korol-i-shut-marianetki/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-101",
+    "artist": "Король и Шут",
+    "title": "Мёртвый анархист",
+    "category": "ru",
+    "priority": false,
+    "url": "https://akkords.pro/songs/korol-i-shut/myortvyy-anarhist/",
+    "extra_url": "https://akkordam.ru/razbory/korol-i-shut-mertvyj-anarhist/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-102",
+    "artist": "Король и Шут",
+    "title": "Прыгну со скалы",
+    "category": "ru",
+    "priority": false,
+    "url": "https://akkords.pro/songs/korol-i-shut/prygnu-so-skaly/",
+    "extra_url": "https://chordzilla.ru/korol-i-shut/prygnu-so-skaly/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-103",
+    "artist": "Король и Шут",
+    "title": "Ром",
+    "category": "ru",
+    "priority": false,
+    "url": "https://akkords.pro/songs/korol-i-shut/rom/",
+    "extra_url": "https://guitarflow.ru/songs/korol-i-shut/rom/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-104",
+    "artist": "Король и Шут",
+    "title": "Танец злобного гения",
+    "category": "ru",
+    "priority": false,
+    "url": "https://akkords.pro/songs/korol-i-shut/tanets-zlobnogo-geniya/",
+    "extra_url": "https://nagitaru.ru/kish-tanets-zlobnogo-geniya-ak/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-105",
+    "artist": "Ленинград",
+    "title": "WWW",
+    "category": "ru",
+    "priority": false,
+    "url": "https://gitarizm.ru/akkords/leningrad-www",
+    "extra_url": "https://nagitaru.ru/www-leningrad-akkordy/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-106",
+    "artist": "Ленинград",
+    "title": "Кабриолет",
+    "category": "ru",
+    "priority": false,
+    "url": "https://akkordam.ru/leningrad-kabriolet/",
+    "extra_url": "https://www.mazmazika.com/chordanalyzer/leningrad-songs/%D0%BA%D0%B0%D0%B1%D1%80%D0%B8%D0%BE%D0%BB%D0%B5%D1%82-chords",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-107",
+    "artist": "Леприконсы",
+    "title": "Хали-гали, паратрупер",
+    "category": "ru",
+    "priority": false,
+    "url": "https://akkords.pro/songs/leprikonsy/hali-gali/",
+    "extra_url": "https://mytabs.ru/akkordy/l-r/leprikonsy/hali-gali-paratruper_16414.html",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-108",
+    "artist": "Любэ",
+    "title": "Позови меня тихо по имени",
+    "category": "ru",
+    "priority": false,
+    "url": "https://akkords.pro/songs/ljubje/pozovi-menya-tiho-po-imeni/",
+    "extra_url": "https://chordhub.ru/akkords/lyubeh/pozovi-menya-tiho-po-imeni/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-109",
+    "artist": "Ляпис Трубецкой",
+    "title": "Капитал",
+    "category": "ru",
+    "priority": false,
+    "url": "https://akkords.pro/songs/lyapis-trubetskoy/kapital/",
+    "extra_url": "https://akkordam.ru/razbory/popular/ljapis-trubeckoj-kapital",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-110",
+    "artist": "Макс Корж",
+    "title": "Горы по колено",
+    "category": "ru",
+    "priority": false,
+    "url": "https://akkords.pro/songs/maks-korzh/gory-po-koleno/",
+    "extra_url": "https://amdm.one/maks-korzh/gory-po-koleno/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-111",
+    "artist": "Макс Корж",
+    "title": "Жить в кайф",
+    "category": "ru",
+    "priority": true,
+    "url": "https://akkords.pro/songs/maks-korzh/zhit-v-kajf/",
+    "extra_url": "https://amdm.one/maks-korzh/zhit-v-kayf/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-112",
+    "artist": "Макс Корж",
+    "title": "Небо поможет нам",
+    "category": "ru",
+    "priority": false,
+    "url": "https://akkords.pro/songs/maks-korzh/nebo-pomozhet-nam/",
+    "extra_url": "https://nagitaru.ru/nebo-pomozhet-nam-akkordyi/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-113",
+    "artist": "Маша и Медведи",
+    "title": "Любочка",
+    "category": "ru",
+    "priority": false,
+    "url": "https://akkords.pro/songs/masha-i-medvedi/lyubochka/",
+    "extra_url": "https://chordhub.ru/masha-i-medvedi/lyubochka/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-114",
+    "artist": "Машина времени",
+    "title": "Костёр",
+    "category": "ru",
+    "priority": false,
+    "url": "https://akkords.pro/songs/mashina-vremeni/kostyor/",
+    "extra_url": "https://akkords.online/akkordy/mashina-vremeni/kostyor/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-115",
+    "artist": "Машина времени",
+    "title": "Однажды мир прогнётся под нас",
+    "category": "ru",
+    "priority": false,
+    "url": "https://akkords.pro/songs/mashina-vremeni/odnazhdy-mir-prognyotsya-pod-nas/",
+    "extra_url": "https://www.pereborom.ru/mir-prognetsya-pod-nas-akkordy/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-116",
+    "artist": "Машина времени",
+    "title": "Поворот",
+    "category": "ru",
+    "priority": false,
+    "url": "https://akkords.pro/songs/mashina-vremeni/povorot/",
+    "extra_url": "https://nagitaru.ru/mashina-vremeni-povorot-ak/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-117",
+    "artist": "Мельница",
+    "title": "Дороги",
+    "category": "ru",
+    "priority": false,
+    "url": "https://akkordam.ru/razbory/popular/melnica-dorogi",
+    "extra_url": "https://akkords.pro/songs/melnitsa/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-118",
+    "artist": "Монеточка",
+    "title": "Каждый раз",
+    "category": "ru",
+    "priority": false,
+    "url": "https://akkords.pro/songs/monetochka/kazhdyy-raz/",
+    "extra_url": "https://guitar-master.org/monetochka-kahzdii-raz-accordi-i-tekst-pesni/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-119",
+    "artist": "МУККА",
+    "title": "Девочка с каре",
+    "category": "ru",
+    "priority": false,
+    "url": "https://nagitaru.ru/mukka-devochka-s-kare-akk/",
+    "extra_url": "https://www.youtube.com/watch?v=oifVBz8EHOE",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-120",
+    "artist": "Мумий Тролль",
+    "title": "Владивосток 2000",
+    "category": "ru",
+    "priority": false,
+    "url": "https://guitardo.ru/blog/razbor-pesni-mumij-troll-vladivostok-2000/",
+    "extra_url": "https://akkords.pro/songs/mumiy-troll/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-121",
+    "artist": "Мумий Тролль",
+    "title": "Утекай",
+    "category": "ru",
+    "priority": false,
+    "url": "https://guitardo.ru/blog/razbor-pesni-mumij-troll-utekaj/",
+    "extra_url": "https://akkords.pro/songs/mumiy-troll/utekay/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-122",
+    "artist": "Мураками",
+    "title": "0 км",
+    "category": "ru",
+    "priority": false,
+    "url": "https://akkordov.net/akkordi/murakami/696460-0-km",
+    "extra_url": "https://akkords.pro/songs/murakami/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-123",
+    "artist": "Нервы",
+    "title": "Вороны",
+    "category": "ru",
+    "priority": true,
+    "url": "https://akkords.pro/songs/nervy/vorony/",
+    "extra_url": "https://gitarizm.ru/akkords/nervy-vorony",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-124",
+    "artist": "Нервы",
+    "title": "Кофе мой друг",
+    "category": "ru",
+    "priority": false,
+    "url": "https://akkordam.ru/razbory/popular/nervy-kofe-moj-drug",
+    "extra_url": "https://www.youtube.com/watch?v=RMbwV1SqLUs",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-125",
+    "artist": "Нервы",
+    "title": "Лето, плавки, рок-н-ролл",
+    "category": "ru",
+    "priority": false,
+    "url": "https://gitarizm.ru/akkords/nervy-leto-plavki-rok-n-roll",
+    "extra_url": "https://akkords.pro/songs/nervy/leto-plavki-rok-n-roll/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-126",
+    "artist": "Нервы",
+    "title": "Нервы",
+    "category": "ru",
+    "priority": true,
+    "url": "https://gitarizm.ru/akkords/nervy-nervy",
+    "extra_url": "https://www.youtube.com/watch?v=kTrIxH9qXHc",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-127",
+    "artist": "Нервы",
+    "title": "Родной город",
+    "category": "ru",
+    "priority": true,
+    "url": "https://xn--80aahsbi1ccix.xn--p1ai/%D0%BD%D0%B5%D1%80%D0%B2%D1%8B/%D1%80%D0%BE%D0%B4%D0%BD%D0%BE%D0%B9-%D0%B3%D0%BE%D1%80%D0%BE%D0%B4/",
+    "extra_url": "https://chordhub.ru/nervy/rodnoy-gorod/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-128",
+    "artist": "Нервы",
+    "title": "Самый дорогой человек",
+    "category": "ru",
+    "priority": false,
+    "url": "https://akkords.pro/songs/nervy/samyj-dorogoj-chelovek/",
+    "extra_url": "https://amdm.one/nervy/samyy-dorogoy-chelovek/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-129",
+    "artist": "Нервы",
+    "title": "Слишком влюблён",
+    "category": "ru",
+    "priority": true,
+    "url": "https://akkords.pro/songs/nervy/slishkom-vljubljon/",
+    "extra_url": "https://www.youtube.com/watch?v=N-cPyGQ8xZc",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-130",
+    "artist": "Несчастный Случай",
+    "title": "Генералы (песчаных карьеров)",
+    "category": "ru",
+    "priority": false,
+    "url": "https://akkords.pro/songs/neschastnyy-sluchay/generaly-peschanyh-karerov/",
+    "extra_url": "https://guitarflow.ru/songs/neschastnyy-sluchay/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-131",
+    "artist": "Ночные Снайперы",
+    "title": "31-я весна",
+    "category": "ru",
+    "priority": false,
+    "url": "https://akkords.pro/songs/nochnye-snaypery/31-ya-vesna/",
+    "extra_url": "https://akkordam.ru/razbory/nochnye-snajpery-31-vesna",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-132",
+    "artist": "Ночные Снайперы",
+    "title": "Катастрофически",
+    "category": "ru",
+    "priority": false,
+    "url": "https://akkords.pro/songs/nochnye-snaypery/katastroficheski/",
+    "extra_url": "https://guitarflow.ru/songs/nochnye-snaypery/katastroficheski/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-133",
+    "artist": "Ночные Снайперы",
+    "title": "Ты дарила мне розы",
+    "category": "ru",
+    "priority": false,
+    "url": "https://akkords.pro/songs/nochnye-snaypery/ty-darila-mne-rozy/",
+    "extra_url": "https://akkordam.ru/razbory/popular/diana-arbenina-ty-darila-mne-rozy",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-134",
+    "artist": "Отпетые мошенники",
+    "title": "Люби меня люби",
+    "category": "ru",
+    "priority": false,
+    "url": "https://guitar-uke.com/ru/gitara/singer/liubi_mjenia_liubi_otpjetije_moshjenniki/7863.html",
+    "extra_url": "https://note-store.ru/notes/otpetye-moshenniki/lyubi-menya-lyubi-2/guitar-tab/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-135",
+    "artist": "Папин Олимпос",
+    "title": "Тёмно-оранжевый закат",
+    "category": "ru",
+    "priority": false,
+    "url": "https://akkords.pro/songs/papin-olimpos/tyomno-oranzhevyj-zakat/",
+    "extra_url": "https://www.youtube.com/watch?v=YAWBggoLXls",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-136",
+    "artist": "Порнофильмы",
+    "title": "Россия для грустных",
+    "category": "ru",
+    "priority": false,
+    "url": "https://rusakk.ru/akkordy/pornofilmy/rossiya-dlya-grustnyh/",
+    "extra_url": "https://www.youtube.com/watch?v=cqjRgT5aTg4",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-137",
+    "artist": "Порнофильмы",
+    "title": "Я так соскучился",
+    "category": "ru",
+    "priority": true,
+    "url": "https://akkords.pro/songs/pf/ja-tak-soskuchilsja/",
+    "extra_url": "https://amdm.one/pornofilmy/ya-tak-soskuchilsya/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-138",
+    "artist": "Руки Вверх!",
+    "title": "Крошка моя",
+    "category": "ru",
+    "priority": false,
+    "url": "https://akkords.pro/songs/ruki-vverh/kroshka-moya/",
+    "extra_url": "https://nagitaru.ru/kroshka-moya-ruki-vverh/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-139",
+    "artist": "Руки Вверх!",
+    "title": "Он тебя целует",
+    "category": "ru",
+    "priority": false,
+    "url": "https://akkords.pro/songs/ruki-vverh/on-tebya-tseluet/",
+    "extra_url": "https://akkordus.ru/songwriter/ruki_vverh/on_tebya_celuet",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-140",
+    "artist": "Секрет",
+    "title": "Моя любовь на пятом этаже",
+    "category": "ru",
+    "priority": false,
+    "url": "https://akkords.pro/songs/sekret/moya-lyubov-na-pyatom-etazhe/",
+    "extra_url": "https://www.youtube.com/watch?v=HLvkw0KJsko",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-141",
+    "artist": "Сектор Газа",
+    "title": "Демобилизация",
+    "category": "ru",
+    "priority": true,
+    "url": "https://akkords.pro/songs/sektor-gaza/demobilizacija/",
+    "extra_url": "https://gitarizm.ru/akkords/sektor-gaza-demobilizaciya",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-142",
+    "artist": "Сектор Газа",
+    "title": "Колхозный панк",
+    "category": "ru",
+    "priority": false,
+    "url": "https://akkords.pro/songs/sektor-gaza/kolhoznyy-pank/",
+    "extra_url": "https://www.youtube.com/watch?v=INiGAmmXdVg",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-143",
+    "artist": "Сектор Газа",
+    "title": "Пора домой",
+    "category": "ru",
+    "priority": false,
+    "url": "https://akkords.pro/songs/sektor-gaza/pora-domoj/",
+    "extra_url": "https://amdm.one/sektor-gaza/pora-domoy/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-144",
+    "artist": "Сектор Газа",
+    "title": "Ява",
+    "category": "ru",
+    "priority": false,
+    "url": "https://akkords.pro/songs/sektor-gaza/yava/",
+    "extra_url": "https://nagitaru.ru/sektor-gaza-yava-akkordyi/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-145",
+    "artist": "Смысловые Галлюцинации",
+    "title": "Вечно молодой",
+    "category": "ru",
+    "priority": false,
+    "url": "https://gitarizm.ru/akkords/smyslovye-gallyucinacii-vechno-molodoy",
+    "extra_url": "https://akkords.pro/songs/smyslovye-gallyutsinatsii/vechno-molodoy/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-146",
+    "artist": "Смысловые Галлюцинации",
+    "title": "Зачем топтать мою любовь",
+    "category": "ru",
+    "priority": false,
+    "url": "https://akkords.pro/songs/smyslovye-gallyutsinatsii/zachem-toptat-moyu-lyubov/",
+    "extra_url": "https://guitar-master.org/smislovie-gallucinacii-zachem-toptat-mou-lubov-accordi-i-tekst/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-147",
+    "artist": "Сплин",
+    "title": "Выхода нет",
+    "category": "ru",
+    "priority": true,
+    "url": "https://chordzilla.ru/splin/vyhoda-net/",
+    "extra_url": "https://akkords.pro/songs/splin/vyxoda-net/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-148",
+    "artist": "Сплин",
+    "title": "Моё сердце",
+    "category": "ru",
+    "priority": false,
+    "url": "https://akkords.online/akkordy/splin/moyo-serdce/",
+    "extra_url": "https://amdm.one/splin/moyo-serdtse/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-149",
+    "artist": "Сплин",
+    "title": "Орбит без сахара",
+    "category": "ru",
+    "priority": false,
+    "url": "https://akkords.pro/songs/splin/orbit-bez-sahara/",
+    "extra_url": "https://gitarizm.ru/akkords/splin-orbit-bez-sahara-2-variant",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-150",
+    "artist": "Сплин",
+    "title": "Романс",
+    "category": "ru",
+    "priority": true,
+    "url": "https://akkords.pro/songs/splin/romans/",
+    "extra_url": "https://guitardo.ru/blog/razbor-pesni-splin-romans/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-151",
+    "artist": "Сплин",
+    "title": "Танцуй!",
+    "category": "ru",
+    "priority": false,
+    "url": "https://akkords.pro/songs/splin/tantsuy/",
+    "extra_url": "https://akkordam.ru/razbory/popular/splin-tancuj",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-152",
+    "artist": "Танцы Минус",
+    "title": "Половинка",
+    "category": "ru",
+    "priority": false,
+    "url": "https://akkords.pro/songs/tancy-minus/polovinka/",
+    "extra_url": "https://amdm.one/tantsy-minus/polovinka/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-153",
+    "artist": "Три дня дождя",
+    "title": "Отпускай",
+    "category": "ru",
+    "priority": false,
+    "url": "https://chordhub.ru/tri-dnya-dozhdya/otpuskay/",
+    "extra_url": "https://nagitaru.ru/tri-dnya-dozhdya-otpuskaj-akkordy/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-154",
+    "artist": "ЧайФ",
+    "title": "Аргентина-Ямайка — 5:0",
+    "category": "ru",
+    "priority": false,
+    "url": "https://nagitaru.ru/argentina-yamayka-chife/",
+    "extra_url": "https://chordhub.ru/chayf/argentina-yamayka-5-0/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-155",
+    "artist": "ЧайФ",
+    "title": "Никто не услышит (Ой-йо)",
+    "category": "ru",
+    "priority": false,
+    "url": "https://pereborom.ru/chajf-oj-jo-akkordy/",
+    "extra_url": "https://www.youtube.com/watch?v=Bor6jzUu0Es",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-156",
+    "artist": "ЧайФ",
+    "title": "Оранжевое настроение",
+    "category": "ru",
+    "priority": false,
+    "url": "https://akkordus.ru/songwriter/chajf/oranzhevoe_nastroenie",
+    "extra_url": "https://www.youtube.com/watch?v=Dmql-D-j7xs",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-157",
+    "artist": "Чиж & Co",
+    "title": "О любви",
+    "category": "ru",
+    "priority": true,
+    "url": "https://guitardo.ru/blog/razbor-pesni-chizh-o-lyubvi/",
+    "extra_url": "https://akkords.pro/songs/chizh/o-lyubvi/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-158",
+    "artist": "Чичерина",
+    "title": "Жара",
+    "category": "ru",
+    "priority": false,
+    "url": "https://gitarizm.ru/akkords/chicherina-zhara",
+    "extra_url": "https://ru.muzland.ru/songs.html?auth=28&song=11",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-159",
+    "artist": "Чичерина",
+    "title": "Ту-лу-ла",
+    "category": "ru",
+    "priority": false,
+    "url": "https://akkords.pro/songs/yuliya-chicherina/tu-lu-la/",
+    "extra_url": "https://dodiez.ru/chords/chicherina/tu-lu-la/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-160",
+    "artist": "a-ha",
+    "title": "Take on Me",
+    "category": "acoustic",
+    "priority": false,
+    "url": "https://mychords.net/aha/262810-a-ha-take-on-me.html",
+    "extra_url": "https://www.youtube.com/watch?v=Qwc36lY7rUI",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-161",
+    "artist": "Amy Macdonald",
+    "title": "This Is the Life",
+    "category": "acoustic",
+    "priority": false,
+    "url": "https://mychords.net/en/amy-macdonald/200416-amy-macdonald-this-is-the-life.html",
+    "extra_url": "https://www.youtube.com/watch?v=kCa_l7IlPzc",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-162",
+    "artist": "Avicii",
+    "title": "Hey Brother",
+    "category": "acoustic",
+    "priority": false,
+    "url": "https://mychords.net/avicii/64994-avicii-hey-brother.html",
+    "extra_url": "https://www.youtube.com/watch?v=AQ4yNdHi8ug",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-163",
+    "artist": "Avicii",
+    "title": "The Nights",
+    "category": "acoustic",
+    "priority": false,
+    "url": "https://mychords.net/avicii/73849-avicii-the-nights.html",
+    "extra_url": "https://www.youtube.com/watch?v=oIWeBnhmrzM",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-164",
+    "artist": "Avicii",
+    "title": "Wake Me Up",
+    "category": "acoustic",
+    "priority": false,
+    "url": "https://www.e-chords.com/chords/avicii/wake-me-up",
+    "extra_url": "https://www.youtube.com/watch?v=_u4wlBmXGmw",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-165",
+    "artist": "beabadoobee",
+    "title": "Coffee",
+    "category": "acoustic",
+    "priority": false,
+    "url": "https://mychords.net/en/beabadoobee/128099-beabadoobee-coffee.html",
+    "extra_url": "https://www.youtube.com/watch?v=--4sWZs1Gb4",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-166",
+    "artist": "Bobby McFerrin",
+    "title": "Don't Worry Be Happy",
+    "category": "acoustic",
+    "priority": false,
+    "url": "https://mychords.net/mcferrin_bobby/85898-mcferrin-bobby-dont-worry-be-happy.html",
+    "extra_url": "https://www.youtube.com/watch?v=9Y1Jqoa4UtI",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-167",
+    "artist": "Bon Jovi",
+    "title": "It's My Life",
+    "category": "acoustic",
+    "priority": false,
+    "url": "https://www.e-chords.com/chords/bon-jovi/its-my-life",
+    "extra_url": "https://www.youtube.com/watch?v=AbSAl2gxN6E",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-168",
+    "artist": "BoyWithUke",
+    "title": "Toxic",
+    "category": "acoustic",
+    "priority": false,
+    "url": "https://mychords.net/en/boywithuke/157980-boywithuke-toxic.html",
+    "extra_url": "https://www.youtube.com/watch?v=SAqLN-SxkFc",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-169",
+    "artist": "Bruno Mars",
+    "title": "The Lazy Song",
+    "category": "acoustic",
+    "priority": false,
+    "url": "https://www.learn-acoustic-guitar.com/bruno-mars-lazy-song-guitar-tutorial/",
+    "extra_url": "https://www.youtube.com/watch?v=KMAwwbsSfsk",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-170",
+    "artist": "Dominic Fike",
+    "title": "Babydoll",
+    "category": "acoustic",
+    "priority": false,
+    "url": "https://mychords.net/dominic-fike/267214-dominic-fike-babydoll.html",
+    "extra_url": "https://www.youtube.com/watch?v=ZaUGcINM9_s",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-171",
+    "artist": "Eagle-Eye Cherry",
+    "title": "Save Tonight",
+    "category": "acoustic",
+    "priority": false,
+    "url": "https://mychords.net/eagle_cherry/36859-eagle-eye-cherry-save-tonight.html",
+    "extra_url": "https://www.youtube.com/watch?v=Zn3coG1fCd0",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-172",
+    "artist": "Eels",
+    "title": "I Need Some Sleep",
+    "category": "acoustic",
+    "priority": false,
+    "url": "https://www.e-chords.com/chords/eels/i-need-some-sleep",
+    "extra_url": "https://www.youtube.com/watch?v=bRDJfT4Fa8g",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-173",
+    "artist": "Fleetwood Mac",
+    "title": "The Chain",
+    "category": "acoustic",
+    "priority": false,
+    "url": "https://mychords.net/en/fleetwood_mac/151778-fleetwood-mac-the-chain.html",
+    "extra_url": "https://www.youtube.com/watch?v=3Tae3BiX4pY",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-174",
+    "artist": "Fool's Garden",
+    "title": "Lemon Tree",
+    "category": "acoustic",
+    "priority": false,
+    "url": "https://mychords.net/fools_garden/82370-fools-garden-lemon-tree.html",
+    "extra_url": "https://www.youtube.com/watch?v=fyuG0M-bOL4",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-175",
+    "artist": "GAYLE",
+    "title": "abcdefu",
+    "category": "acoustic",
+    "priority": false,
+    "url": "https://mychords.net/en/gayle/160547-gayle-abcdefu.html",
+    "extra_url": "https://www.youtube.com/watch?v=KyWxquYgIKs",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-176",
+    "artist": "Gnarls Barkley",
+    "title": "Crazy",
+    "category": "acoustic",
+    "priority": false,
+    "url": "https://mychords.net/en/gnarls-barkley/83814-gnarls-barkley-crazy.html",
+    "extra_url": "https://www.youtube.com/watch?v=F8lQmFANH0s",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-177",
+    "artist": "Golden Earring",
+    "title": "Going to the Run",
+    "category": "acoustic",
+    "priority": false,
+    "url": "https://www.e-chords.com/chords/golden-earring/going-to-the-run",
+    "extra_url": "https://www.youtube.com/watch?v=6NM4ldf3nCM",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-178",
+    "artist": "Imagine Dragons",
+    "title": "Believer",
+    "category": "acoustic",
+    "priority": false,
+    "url": "https://www.e-chords.com/chords/imagine-dragons/believer",
+    "extra_url": "https://www.youtube.com/watch?v=NTt-CsJBeEE",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-179",
+    "artist": "Imagine Dragons",
+    "title": "Demons",
+    "category": "acoustic",
+    "priority": false,
+    "url": "https://mychords.net/en/imagine_dragons/73125-imagine-dragons-demons.html",
+    "extra_url": "https://www.youtube.com/watch?v=WEhlUdQ0J44",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-180",
+    "artist": "Imagine Dragons",
+    "title": "It's Time",
+    "category": "acoustic",
+    "priority": false,
+    "url": "https://www.e-chords.com/chords/imagine-dragons/its-time",
+    "extra_url": "https://www.youtube.com/watch?v=0eqxaEhfUME",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-181",
+    "artist": "Imagine Dragons",
+    "title": "Radioactive",
+    "category": "acoustic",
+    "priority": false,
+    "url": "https://mychords.net/imagine_dragons/174942-imagine-dragons-radioactive.html",
+    "extra_url": "https://coachguitar.com/en/video/radioactive-imagine-dragons-guitar-lesson",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-182",
+    "artist": "Jeanette",
+    "title": "Porque te vas",
+    "category": "acoustic",
+    "priority": false,
+    "url": "https://www.e-chords.com/es/acordes/jeanette/porque-te-vas",
+    "extra_url": "https://www.youtube.com/watch?v=L29Qzd3Iepw",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-183",
+    "artist": "Joan Osborne",
+    "title": "One of Us",
+    "category": "acoustic",
+    "priority": false,
+    "url": "https://www.e-chords.com/chords/joan-osborne/one-of-us",
+    "extra_url": "https://www.youtube.com/watch?v=jdigp1mhu9s",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-184",
+    "artist": "Joe Dassin",
+    "title": "Les Champs-Élysées",
+    "category": "acoustic",
+    "priority": false,
+    "url": "https://www.e-chords.com/en/chords/joe-dassin/les-champs-elysees",
+    "extra_url": "https://www.youtube.com/watch?v=c6o5QDW7I7U",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-185",
+    "artist": "KALEO",
+    "title": "Way Down We Go",
+    "category": "acoustic",
+    "priority": false,
+    "url": "https://mychords.net/en/kaleo/90661-kaleo-way-down-we-go.html",
+    "extra_url": "https://www.youtube.com/watch?v=z1eXLnQ7Dks",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-186",
+    "artist": "LP",
+    "title": "Lost on You",
+    "category": "acoustic",
+    "priority": false,
+    "url": "https://www.e-chords.com/en/chords/lp/lost-on-you",
+    "extra_url": "https://www.youtube.com/watch?v=E19uYEMpYuU",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-187",
+    "artist": "Lynyrd Skynyrd",
+    "title": "Free Bird",
+    "category": "acoustic",
+    "priority": false,
+    "url": "https://www.e-chords.com/en/chords/lynyrd-skynyrd/freebird",
+    "extra_url": "https://www.youtube.com/watch?v=Wm9f7NVah50",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-188",
+    "artist": "Manu Chao",
+    "title": "Me Gustas Tú",
+    "category": "acoustic",
+    "priority": false,
+    "url": "https://www.e-chords.com/en/chords/manu-chao/me-gustas-tu",
+    "extra_url": "https://www.youtube.com/watch?v=tYscUsn5JFU",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-189",
+    "artist": "Maroon 5",
+    "title": "One More Night",
+    "category": "acoustic",
+    "priority": false,
+    "url": "https://www.e-chords.com/chords/maroon-5/one-more-night",
+    "extra_url": "https://www.youtube.com/watch?v=pUhNf23A8cs",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-190",
+    "artist": "Nickelback",
+    "title": "If Everyone Cared",
+    "category": "acoustic",
+    "priority": false,
+    "url": "https://www.e-chords.com/chords/nickelback/if-everyone-cared",
+    "extra_url": "https://www.youtube.com/watch?v=WAs2WgmlYu0",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-191",
+    "artist": "No Doubt",
+    "title": "Don't Speak",
+    "category": "acoustic",
+    "priority": false,
+    "url": "https://mychords.net/en/nodoubt/175922-no-doubt-dont-speak.html",
+    "extra_url": "https://www.youtube.com/watch?v=bxOKJ9kfqgg",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-192",
+    "artist": "OneRepublic",
+    "title": "Counting Stars",
+    "category": "acoustic",
+    "priority": false,
+    "url": "https://www.musicalfuturesonline.org/resources/songbook-guitar-counting-stars/",
+    "extra_url": "https://www.youtube.com/watch?v=zcfgdbyJQO4",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-193",
+    "artist": "Passenger",
+    "title": "Let Her Go",
+    "category": "acoustic",
+    "priority": false,
+    "url": "https://mychords.net/en/passenger/175929-passenger-let-her-go.html",
+    "extra_url": "https://www.youtube.com/watch?v=QJPKiBo0ACY",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-194",
+    "artist": "Pixies",
+    "title": "Where Is My Mind?",
+    "category": "acoustic",
+    "priority": false,
+    "url": "https://www.e-chords.com/chords/pixies/where-is-my-mind",
+    "extra_url": "https://www.youtube.com/watch?v=ZXLqTE8OwHY",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-195",
+    "artist": "Radical Face",
+    "title": "Welcome Home",
+    "category": "acoustic",
+    "priority": false,
+    "url": "https://www.e-chords.com/chords/radical-face/welcome-home",
+    "extra_url": "https://www.youtube.com/watch?v=5TawDANvbLc",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-196",
+    "artist": "Ricky Martin",
+    "title": "Livin’ la Vida Loca",
+    "category": "acoustic",
+    "priority": false,
+    "url": "https://mychords.net/uk/martin_ricky/66730-ricky-martin-livin-la-vida-loca.html",
+    "extra_url": "https://www.youtube.com/watch?v=UgCsdM4VHrY",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-197",
+    "artist": "Ritchie Valens",
+    "title": "La Bamba",
+    "category": "acoustic",
+    "priority": false,
+    "url": "https://www.e-chords.com/en/chords/ritchie-valens/la-bamba",
+    "extra_url": "https://www.youtube.com/watch?v=pljCgUta-u0",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-198",
+    "artist": "Scorpions",
+    "title": "Still Loving You",
+    "category": "acoustic",
+    "priority": false,
+    "url": "https://www.e-chords.com/chords/scorpions/still-loving-you",
+    "extra_url": "https://www.youtube.com/watch?v=ldT8wccZy4U",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-199",
+    "artist": "Scorpions",
+    "title": "Wind of Change",
+    "category": "acoustic",
+    "priority": false,
+    "url": "https://mychords.net/scorpions/6753-scorpions-wind-of-change.html",
+    "extra_url": "https://www.youtube.com/watch?v=X3OyCHP-GiM",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-200",
+    "artist": "Shocking Blue",
+    "title": "Venus",
+    "category": "acoustic",
+    "priority": false,
+    "url": "https://www.e-chords.com/chords/shocking-blue/venus",
+    "extra_url": "https://www.youtube.com/watch?v=EAUVyq-3C5Y",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-201",
+    "artist": "Status Quo",
+    "title": "In the Army Now",
+    "category": "acoustic",
+    "priority": false,
+    "url": "https://www.gotabs.com/status-quo/in-the-army-now-tab",
+    "extra_url": "https://www.gitaartabs.nl/en/akkoorden/status-quo/in-the-army-now",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-202",
+    "artist": "Sting",
+    "title": "Shape of My Heart",
+    "category": "acoustic",
+    "priority": false,
+    "url": "https://www.jerrysguitarbar.com/guitar-video-lessons/individual-songs/sting-shape-of-my-heart/",
+    "extra_url": "https://www.youtube.com/watch?v=JTMEAMa4sUE",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-203",
+    "artist": "Surf Curse",
+    "title": "Freaks",
+    "category": "acoustic",
+    "priority": false,
+    "url": "https://www.e-chords.com/chords/surf-curse/freaks",
+    "extra_url": "https://www.youtube.com/watch?v=vC8G3XVFGXw",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-204",
+    "artist": "Suzi Quatro, Chris Norman",
+    "title": "Stumblin’ In",
+    "category": "acoustic",
+    "priority": false,
+    "url": "https://mychords.net/en/chris-norman/268173-chris-norman-suzi-quatro-stumblin-in.html",
+    "extra_url": "https://www.youtube.com/watch?v=ZF3JYpesXwQ",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-205",
+    "artist": "Tally Hall",
+    "title": "The Bidding",
+    "category": "acoustic",
+    "priority": false,
+    "url": "https://www.e-chords.com/chords/tally-hall/the-bidding",
+    "extra_url": "https://www.youtube.com/watch?v=mI4sWQKjHYs",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-206",
+    "artist": "The Animals",
+    "title": "House of the Rising Sun",
+    "category": "acoustic",
+    "priority": false,
+    "url": "https://mychords.net/animals/8522-animals-the-house-of-the-rising-sun.html",
+    "extra_url": "https://www.youtube.com/watch?v=y3SAaEnjHpE",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-207",
+    "artist": "The Beatles",
+    "title": "All My Loving",
+    "category": "acoustic",
+    "priority": false,
+    "url": "https://www.e-chords.com/chords/the-beatles/all-my-loving",
+    "extra_url": "https://www.youtube.com/watch?v=CWZXESG9USo",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-208",
+    "artist": "The Beatles",
+    "title": "Help!",
+    "category": "acoustic",
+    "priority": false,
+    "url": "https://www.e-chords.com/chords/the-beatles/help",
+    "extra_url": "https://www.youtube.com/watch?v=M-IM--hK6Ng",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-209",
+    "artist": "The Beatles",
+    "title": "Here Comes the Sun",
+    "category": "acoustic",
+    "priority": false,
+    "url": "https://mychords.net/uk/beatles/3110-the-beatles-here-comes-the-sun.html",
+    "extra_url": "https://www.youtube.com/watch?v=Hfwza7F9PYo",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-210",
+    "artist": "The Beatles",
+    "title": "Michelle",
+    "category": "acoustic",
+    "priority": false,
+    "url": "https://mychords.net/en/beatles/3166-the-beatles-michelle.html",
+    "extra_url": "https://www.youtube.com/watch?v=q95PqORwFdE",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-211",
+    "artist": "The Beatles",
+    "title": "Ticket to Ride",
+    "category": "acoustic",
+    "priority": false,
+    "url": "https://mychords.net/beatles/82951-the-beatles-ticket-to-ride.html",
+    "extra_url": "https://www.youtube.com/watch?v=fVuGnA9Cs4Q",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-212",
+    "artist": "The Cranberries",
+    "title": "Zombie",
+    "category": "acoustic",
+    "priority": false,
+    "url": "https://mychords.net/cranberries/69717-the-cranberries-zombie.html",
+    "extra_url": "https://coachguitar.com/en/video/zombie-the-cranberries-guitar-lesson?t=24",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-213",
+    "artist": "The Proclaimers",
+    "title": "I'm on My Way",
+    "category": "acoustic",
+    "priority": false,
+    "url": "https://chordhub.ru/the-proclaimers/im-on-my-way/",
+    "extra_url": "https://www.youtube.com/watch?v=3kDrZiewtPc",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-214",
+    "artist": "The Rolling Stones",
+    "title": "Paint It Black",
+    "category": "acoustic",
+    "priority": false,
+    "url": "https://mychords.net/rollingstones/178146-rolling-stones-paint-it-black.html",
+    "extra_url": "https://www.youtube.com/watch?v=VJEuSh6n8uQ",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-215",
+    "artist": "Tones and I",
+    "title": "Dance Monkey",
+    "category": "acoustic",
+    "priority": false,
+    "url": "https://mychords.net/tones-and-i/119261-tones-and-i-dance-monkey.html",
+    "extra_url": "https://www.youtube.com/watch?v=TARIux7qg9o",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-216",
+    "artist": "twenty one pilots",
+    "title": "Heathens",
+    "category": "acoustic",
+    "priority": false,
+    "url": "https://mychords.net/twenty-one-pilots/83545-twenty-one-pilots-heathens.html",
+    "extra_url": "https://www.youtube.com/watch?v=UCVry47EYk8",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-217",
+    "artist": "twenty one pilots",
+    "title": "Ride",
+    "category": "acoustic",
+    "priority": false,
+    "url": "https://mychords.net/en/twenty-one-pilots/84943-twenty-one-pilots-ride.html",
+    "extra_url": "https://www.youtube.com/watch?v=gxpTMRFwYb0",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-218",
+    "artist": "twenty one pilots",
+    "title": "Stressed Out",
+    "category": "acoustic",
+    "priority": false,
+    "url": "https://mychords.net/twenty-one-pilots/82072-twenty-one-pilot-stressed-out.html",
+    "extra_url": "https://www.youtube.com/watch?v=2JNfKnaMg2A",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-219",
+    "artist": "Vance Joy",
+    "title": "Riptide",
+    "category": "acoustic",
+    "priority": false,
+    "url": "https://mychords.net/en/vance-joy/129770-vance-joy-riptide.html",
+    "extra_url": "https://www.youtube.com/watch?v=-CdQtjH6iug",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-220",
+    "artist": "Wham!",
+    "title": "Last Christmas",
+    "category": "acoustic",
+    "priority": false,
+    "url": "https://mychords.net/en/wham/94189-wham-last-christmas.html",
+    "extra_url": "https://www.youtube.com/watch?v=DShTCdnBqek",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-221",
+    "artist": "Zaz",
+    "title": "Je veux",
+    "category": "acoustic",
+    "priority": false,
+    "url": "https://mychords.net/zaz/60817-zaz-je-veux65279.html",
+    "extra_url": "https://www.youtube.com/watch?v=j4zFAHeVPho",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-222",
+    "artist": "AC/DC",
+    "title": "Are You Ready",
+    "category": "electric",
+    "priority": false,
+    "url": "https://www.e-chords.com/chords/acdc/are-you-ready",
+    "extra_url": "https://www.youtube.com/watch?v=ZsnXN4peCCE",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-223",
+    "artist": "AC/DC",
+    "title": "Back in Black",
+    "category": "electric",
+    "priority": false,
+    "url": "https://mychords.net/en/acdc/5637-acdc-back-in-black.html",
+    "extra_url": "https://www.youtube.com/watch?v=Q36o37U47Cg",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-224",
+    "artist": "AC/DC",
+    "title": "T.N.T.",
+    "category": "electric",
+    "priority": false,
+    "url": "https://www.e-chords.com/chords/acdc/tnt",
+    "extra_url": "https://www.youtube.com/watch?v=P8fAqQYy8Yg",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-225",
+    "artist": "AC/DC",
+    "title": "Thunderstruck",
+    "category": "electric",
+    "priority": false,
+    "url": "https://www.guitarclub.io/blog/thunderstruck-guitar-lesson-acdc",
+    "extra_url": "https://www.youtube.com/watch?v=wYx8Z2h4HoQ",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-226",
+    "artist": "Arctic Monkeys",
+    "title": "Do I Wanna Know?",
+    "category": "electric",
+    "priority": false,
+    "url": "https://mychords.net/en/arctic_monkeys/78207-arctic-monkeys-do-i-wanna-know.html",
+    "extra_url": "https://www.youtube.com/watch?v=1Xw13R3JnTw",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-227",
+    "artist": "Arctic Monkeys",
+    "title": "Old Yellow Bricks",
+    "category": "electric",
+    "priority": false,
+    "url": "https://mychords.net/arctic_monkeys/96968-arctic-monkeys-old-yellow-bricks-acoustic.html",
+    "extra_url": "https://www.youtube.com/watch?v=HkjaY5UVqR4",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-228",
+    "artist": "Billy Talent",
+    "title": "Fallen Leaves",
+    "category": "electric",
+    "priority": false,
+    "url": "https://mychords.net/billy_talent/112718-billy-talent-fallen-leaves.html",
+    "extra_url": "https://www.youtube.com/watch?v=ICJOHA3diK0",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-229",
+    "artist": "Billy Talent",
+    "title": "Rusted from the Rain",
+    "category": "electric",
+    "priority": false,
+    "url": "https://www.songsterr.com/a/wsa/billy-talent-rusted-from-the-rain-chords-s27719",
+    "extra_url": "https://www.youtube.com/watch?v=uQnACZy4b4c",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-230",
+    "artist": "Black Sabbath",
+    "title": "Paranoid",
+    "category": "electric",
+    "priority": false,
+    "url": "https://www.e-chords.com/chords/black-sabbath/paranoid",
+    "extra_url": "https://www.youtube.com/watch?v=Z_Sz-We6Aww",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-231",
+    "artist": "Blur",
+    "title": "Song 2",
+    "category": "electric",
+    "priority": false,
+    "url": "https://www.e-chords.com/en/chords/blur/song-2",
+    "extra_url": "https://www.youtube.com/watch?v=QfGPnruRvFc",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-232",
+    "artist": "Bon Jovi",
+    "title": "Livin' on a Prayer",
+    "category": "electric",
+    "priority": false,
+    "url": "https://www.e-chords.com/en/chords/bon-jovi/livin-on-a-prayer-ver-acoustic",
+    "extra_url": "https://coachguitar.com/en/video/livin-on-a-prayer-bon-jovi-guitar-lesson",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-233",
+    "artist": "Bon Jovi",
+    "title": "You Give Love a Bad Name",
+    "category": "electric",
+    "priority": false,
+    "url": "https://www.e-chords.com/chords/bon-jovi/you-give-love-a-bad-name",
+    "extra_url": "https://www.youtube.com/watch?v=KhSL4mady90",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-234",
+    "artist": "Chuck Berry",
+    "title": "Johnny B. Goode",
+    "category": "electric",
+    "priority": false,
+    "url": "https://mychords.net/en/chuckberry/9046-chuck-berry-johnny-b-goode.html",
+    "extra_url": "https://www.youtube.com/watch?v=lvuP-I7uI9o",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-235",
+    "artist": "Coldplay",
+    "title": "Adventure of a Lifetime",
+    "category": "electric",
+    "priority": false,
+    "url": "https://mychords.net/en/coldplay/81521-coldplay-adventure-of-a-lifetime.html",
+    "extra_url": "https://www.youtube.com/watch?v=FRaZ5Pd9BTw",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-236",
+    "artist": "Depeche Mode",
+    "title": "Personal Jesus",
+    "category": "electric",
+    "priority": false,
+    "url": "https://www.e-chords.com/chords/depeche-mode/personal-jesus",
+    "extra_url": "https://www.youtube.com/watch?v=5N2wDYAcCb4",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-237",
+    "artist": "Evanescence",
+    "title": "Bring Me to Life",
+    "category": "electric",
+    "priority": false,
+    "url": "https://mychords.net/evanescence/281336-evanescence-bring-me-to-life.html",
+    "extra_url": "https://coachguitar.com/en/video/bring-me-to-life-evanescence-guitar-lesson",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-238",
+    "artist": "Gorillaz, Del The Funky Homosapien",
+    "title": "Clint Eastwood",
+    "category": "electric",
+    "priority": false,
+    "url": "https://www.e-chords.com/chords/gorillaz/clint-eastwood",
+    "extra_url": "https://www.youtube.com/watch?v=VNlOZit71Tw",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-239",
+    "artist": "Gorillaz, Jamie Hewlett, De La Soul",
+    "title": "Feel Good Inc.",
+    "category": "electric",
+    "priority": false,
+    "url": "https://www.e-chords.com/chords/gorillaz/feel-good-inc",
+    "extra_url": "https://www.youtube.com/watch?v=7HMFbHrpvko",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-240",
+    "artist": "Green Day",
+    "title": "21 Guns",
+    "category": "electric",
+    "priority": false,
+    "url": "https://mychords.net/greenday/189438-green-day-21-guns.html",
+    "extra_url": "https://www.youtube.com/watch?v=pGg2reiGFDQ",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-241",
+    "artist": "Green Day",
+    "title": "American Idiot",
+    "category": "electric",
+    "priority": false,
+    "url": "https://www.e-chords.com/chords/green-day/american-idiot",
+    "extra_url": "https://www.youtube.com/watch?v=onLxWkprEGE",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-242",
+    "artist": "Green Day",
+    "title": "Boulevard of Broken Dreams",
+    "category": "electric",
+    "priority": false,
+    "url": "https://www.e-chords.com/chords/green-day/boulevard-of-broken-dreams",
+    "extra_url": "https://coachguitar.com/en/video/boulevard-of-broken-dreams-green-day-guitar-lesson",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-243",
+    "artist": "Green Day",
+    "title": "Holiday",
+    "category": "electric",
+    "priority": false,
+    "url": "https://www.fender.com/play/lessons/holiday-play-it",
+    "extra_url": "https://www.youtube.com/watch?v=NW9Xg7k34Xw",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-244",
+    "artist": "JET",
+    "title": "Are You Gonna Be My Girl",
+    "category": "electric",
+    "priority": false,
+    "url": "https://mychords.net/en/jet/266964-jet-are-you-gonna-be-my-girl.html",
+    "extra_url": "https://www.youtube.com/watch?v=Fk_Fskxi_TY",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-245",
+    "artist": "Joan Jett & the Blackhearts",
+    "title": "I Love Rock ’n Roll",
+    "category": "electric",
+    "priority": false,
+    "url": "https://www.e-chords.com/chords/joan-jett-the-blackhearts/i-love-rock-n-roll",
+    "extra_url": "https://www.youtube.com/watch?v=XVKmgCtmVqI",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-246",
+    "artist": "Kiss",
+    "title": "I Was Made for Lovin' You",
+    "category": "electric",
+    "priority": false,
+    "url": "https://mychords.net/kiss/129480-kiss-i-was-made-for-lovin-you.html",
+    "extra_url": "https://www.youtube.com/watch?v=9js_MYeAPiE",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-247",
+    "artist": "KONGOS",
+    "title": "Come with Me Now",
+    "category": "electric",
+    "priority": false,
+    "url": "https://www.e-chords.com/chords/kongos/come-with-me-now-acoustic",
+    "extra_url": "https://www.youtube.com/watch?v=Hq7kYV2LiFk",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-248",
+    "artist": "Led Zeppelin",
+    "title": "Immigrant Song",
+    "category": "electric",
+    "priority": false,
+    "url": "https://www.e-chords.com/chords/led-zeppelin/immigrant-song-ver-2",
+    "extra_url": "https://www.youtube.com/watch?v=olZ0AtKqudQ",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-249",
+    "artist": "Linkin Park",
+    "title": "Faint",
+    "category": "electric",
+    "priority": false,
+    "url": "https://guitaralliance.org/faint-by-linkin-park/",
+    "extra_url": "https://www.youtube.com/watch?v=uifQWIqMc8w",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-250",
+    "artist": "Linkin Park",
+    "title": "In the End",
+    "category": "electric",
+    "priority": false,
+    "url": "https://www.e-chords.com/chords/linkin-park/in-the-end",
+    "extra_url": "https://coachguitar.com/en/video/in-the-end-linkin-park-guitar-lesson",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-251",
+    "artist": "Linkin Park",
+    "title": "New Divide",
+    "category": "electric",
+    "priority": false,
+    "url": "https://www.e-chords.com/en/chords/linkin-park/new-divide",
+    "extra_url": "https://www.youtube.com/watch?v=Q7SnqfpEPx8",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-252",
+    "artist": "Linkin Park",
+    "title": "Numb",
+    "category": "electric",
+    "priority": false,
+    "url": "https://mychords.net/en/linkinpark/69856-linkin-park-numb.html",
+    "extra_url": "https://coachguitar.com/en/video/numb-linkin-park-guitar-lesson",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-253",
+    "artist": "Linkin Park",
+    "title": "What I've Done",
+    "category": "electric",
+    "priority": false,
+    "url": "https://mychords.net/en/linkinpark/259839-linkin-park-what-ive-done.html",
+    "extra_url": "https://www.youtube.com/watch?v=ifGJNPc5a7s",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-254",
+    "artist": "Michael Jackson",
+    "title": "Billie Jean",
+    "category": "electric",
+    "priority": false,
+    "url": "https://mychords.net/en/jackson_michael/271825-michael-jackson-billie-jean.html",
+    "extra_url": "https://www.youtube.com/watch?v=3jbHLUH0qX4",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-255",
+    "artist": "My Chemical Romance",
+    "title": "Teenagers",
+    "category": "electric",
+    "priority": false,
+    "url": "https://mychords.net/en/mychemicalromance/65653-my-chemical-romance-teenagers.html",
+    "extra_url": "https://www.youtube.com/watch?v=UJcbhfTSUK4",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-256",
+    "artist": "Nickelback",
+    "title": "How You Remind Me",
+    "category": "electric",
+    "priority": false,
+    "url": "https://mychords.net/en/nickelback/169507-nickelback-how-you-remind-me.html",
+    "extra_url": "https://www.youtube.com/watch?v=N1paW0CruRQ",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-257",
+    "artist": "Nirvana",
+    "title": "Rape Me",
+    "category": "electric",
+    "priority": false,
+    "url": "https://mychords.net/en/nirvana/7058-nirvana-rape-me.html",
+    "extra_url": "https://www.youtube.com/watch?v=FbcR8QnqCmM",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-258",
+    "artist": "Nirvana",
+    "title": "Smells Like Teen Spirit",
+    "category": "electric",
+    "priority": false,
+    "url": "https://mychords.net/en/nirvana/276732-nirvana-smells-like-teen-spirit.html",
+    "extra_url": "https://www.youtube.com/watch?v=f8p9vhpsjOI",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-259",
+    "artist": "Papa Roach",
+    "title": "Last Resort",
+    "category": "electric",
+    "priority": false,
+    "url": "https://mychords.net/en/paparoach/255812-papa-roach-last-resort.html",
+    "extra_url": "https://www.youtube.com/watch?v=rBbSbN7V9Bg",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-260",
+    "artist": "Pink Floyd",
+    "title": "Another Brick in the Wall, Part 2",
+    "category": "electric",
+    "priority": false,
+    "url": "https://www.e-chords.com/chords/pink-floyd/another-brick-in-the-wall-part-ii",
+    "extra_url": "https://www.youtube.com/watch?v=pp9BQEqVJh4",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-261",
+    "artist": "Queen",
+    "title": "The Show Must Go On",
+    "category": "electric",
+    "priority": false,
+    "url": "https://mychords.net/en/queen/250770-queen-the-show-must-go-on.html",
+    "extra_url": "https://coachguitar.com/en/video/the-show-must-go-on-queen-guitar-lesson",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-262",
+    "artist": "Queen",
+    "title": "We Will Rock You",
+    "category": "electric",
+    "priority": false,
+    "url": "https://mychords.net/queen/183681-queen-we-will-rock-you.html",
+    "extra_url": "https://www.youtube.com/watch?v=h0N7U6spx5k",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-263",
+    "artist": "Rammstein",
+    "title": "Deutschland",
+    "category": "electric",
+    "priority": false,
+    "url": "https://mychords.net/en/rammstein/115796-rammstein-deutschland.html",
+    "extra_url": "https://www.youtube.com/watch?v=a1AWoDe07Og",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-264",
+    "artist": "Rammstein",
+    "title": "Ich Will",
+    "category": "electric",
+    "priority": false,
+    "url": "https://mychords.net/de/rammstein/2715-rammstein-ich-will.html",
+    "extra_url": "https://www.youtube.com/watch?v=LGiIaUUf0Kc",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-265",
+    "artist": "Rammstein",
+    "title": "Mein Herz Brennt",
+    "category": "electric",
+    "priority": false,
+    "url": "https://www.licklibrary.com/learn/lessons/rammstein/mein-herz-brennt-1",
+    "extra_url": "https://www.youtube.com/watch?v=8OtR1_LJPdY",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-266",
+    "artist": "Rammstein",
+    "title": "Sonne",
+    "category": "electric",
+    "priority": false,
+    "url": "https://mychords.net/en/rammstein/253056-rammstein-sonne.html",
+    "extra_url": "https://www.youtube.com/watch?v=YJxVgKXmQ0w",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-267",
+    "artist": "Red Hot Chili Peppers",
+    "title": "Californication",
+    "category": "electric",
+    "priority": false,
+    "url": "https://www.fretstock.com/songs/californication-by-red-hot-chili-peppers",
+    "extra_url": "https://www.youtube.com/watch?v=QeZnOpFfGxI",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-268",
+    "artist": "Red Hot Chili Peppers",
+    "title": "Can't Stop",
+    "category": "electric",
+    "priority": false,
+    "url": "https://www.e-chords.com/chords/red-hot-chili-peppers/cant-stop",
+    "extra_url": "https://www.youtube.com/watch?v=GwJXI9xE7h8",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-269",
+    "artist": "Red Hot Chili Peppers",
+    "title": "Dani California",
+    "category": "electric",
+    "priority": false,
+    "url": "https://mychords.net/en/redhotchilipeppers/72314-red-hot-chili-peppers-dani-california.html",
+    "extra_url": "https://www.youtube.com/watch?v=_GzpgRJrrJA",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-270",
+    "artist": "Red Hot Chili Peppers",
+    "title": "Otherside",
+    "category": "electric",
+    "priority": false,
+    "url": "https://mychords.net/redhotchilipeppers/191755-red-hot-chili-peppers-otherside.html",
+    "extra_url": "https://www.youtube.com/watch?v=3qCQ437URb4",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-271",
+    "artist": "Red Hot Chili Peppers",
+    "title": "Snow (Hey Oh)",
+    "category": "electric",
+    "priority": false,
+    "url": "https://guvnaguitars.com/tab/snow-hey-oh/",
+    "extra_url": "https://www.youtube.com/watch?v=_N5rxUcVppc",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-272",
+    "artist": "Skillet",
+    "title": "Comatose",
+    "category": "electric",
+    "priority": false,
+    "url": "https://mychords.net/en/skillet/3501-skillet-comatose.html",
+    "extra_url": "https://www.youtube.com/watch?v=lzepqENJRVE",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-273",
+    "artist": "Skillet",
+    "title": "Hero",
+    "category": "electric",
+    "priority": false,
+    "url": "https://mychords.net/en/skillet/7666-skillet-hero.html",
+    "extra_url": "https://www.youtube.com/watch?v=VBuCg36cxtQ",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-274",
+    "artist": "Skillet",
+    "title": "Monster",
+    "category": "electric",
+    "priority": false,
+    "url": "https://www.e-chords.com/chords/skillet/monster",
+    "extra_url": "https://www.youtube.com/watch?v=1WjwfJr8ljM",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-275",
+    "artist": "Sum 41",
+    "title": "Still Waiting",
+    "category": "electric",
+    "priority": false,
+    "url": "https://mychords.net/en/sum41/272313-sum-41-still-waiting.html",
+    "extra_url": "https://www.youtube.com/watch?v=moZvseaZ13s",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-276",
+    "artist": "System of a Down",
+    "title": "Aerials",
+    "category": "electric",
+    "priority": false,
+    "url": "https://mychords.net/en/systemofadown/274235-system-of-a-down-aerials.html",
+    "extra_url": "https://www.youtube.com/watch?v=8i4mioQoAkw",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-277",
+    "artist": "System of a Down",
+    "title": "Chop Suey!",
+    "category": "electric",
+    "priority": false,
+    "url": "https://mychords.net/en/systemofadown/196433-system-of-a-down-chop-suey.html",
+    "extra_url": "https://www.youtube.com/watch?v=op6MMcIxPqc",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-278",
+    "artist": "System of a Down",
+    "title": "Lonely Day",
+    "category": "electric",
+    "priority": false,
+    "url": "https://mychords.net/en/systemofadown/87133-system-of-a-down-lonely-day.html",
+    "extra_url": "https://www.youtube.com/watch?v=iZKOGn0kPPs",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-279",
+    "artist": "System of a Down",
+    "title": "Toxicity",
+    "category": "electric",
+    "priority": false,
+    "url": "https://mychords.net/en/systemofadown/204608-system-of-a-down-toxicity.html",
+    "extra_url": "https://www.youtube.com/watch?v=aKpU0okoTyI",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-280",
+    "artist": "The Doors",
+    "title": "Riders on the Storm",
+    "category": "electric",
+    "priority": false,
+    "url": "https://mychords.net/doors/92098-the-doors-riders-on-the-storm.html",
+    "extra_url": "https://www.youtube.com/watch?v=YZPkcn5Cywk",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-281",
+    "artist": "The Offspring",
+    "title": "Pretty Fly (For a White Guy)",
+    "category": "electric",
+    "priority": false,
+    "url": "https://mychords.net/ru/offspring/9752-offspring-pretty-fly.html",
+    "extra_url": "https://www.youtube.com/watch?v=5j_nhmS2DyI",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-282",
+    "artist": "The Offspring",
+    "title": "The Kids Aren't Alright",
+    "category": "electric",
+    "priority": false,
+    "url": "https://www.e-chords.com/chords/the-offspring/the-kids-arent-alright",
+    "extra_url": "https://www.youtube.com/watch?v=jDwUvHJffHQ",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-283",
+    "artist": "The Offspring",
+    "title": "Why Don’t You Get a Job?",
+    "category": "electric",
+    "priority": false,
+    "url": "https://www.e-chords.com/chords/the-offspring/why-dont-you-get-a-job",
+    "extra_url": "https://www.youtube.com/watch?v=vkLfty4oa6w",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-284",
+    "artist": "The Offspring",
+    "title": "You’re Gonna Go Far, Kid",
+    "category": "electric",
+    "priority": false,
+    "url": "https://mychords.net/en/offspring/79321-offspring-youre-gonna-go-far-kid.html",
+    "extra_url": "https://www.youtube.com/watch?v=-1zE0DrLLAA",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-285",
+    "artist": "The Rasmus",
+    "title": "In the Shadows",
+    "category": "electric",
+    "priority": false,
+    "url": "https://mychords.net/rasmus/64941-rasmus-in-the-shadows-4-variant.html",
+    "extra_url": "https://www.youtube.com/watch?v=lJEeH6M0mQY",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-286",
+    "artist": "The Subways",
+    "title": "Rock & Roll Queen",
+    "category": "electric",
+    "priority": false,
+    "url": "https://mychords.net/the-subways/92094-the-subways-rock-roll-queen-electro.html",
+    "extra_url": "https://www.youtube.com/watch?v=bp0RZQTlv6Y",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-287",
+    "artist": "Three Days Grace",
+    "title": "I Hate Everything About You",
+    "category": "electric",
+    "priority": false,
+    "url": "https://jamplay.com/guitar-lessons/songs/artist/172-three-days-grace/2303-11-i-hate-everything-about-you",
+    "extra_url": "https://www.youtube.com/watch?v=Xa_vqhqx-gY",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-288",
+    "artist": "Three Days Grace",
+    "title": "Time of Dying",
+    "category": "electric",
+    "priority": false,
+    "url": "https://mychords.net/en/three_grace/93171-three-days-grace-time-of-dying.html",
+    "extra_url": "https://www.youtube.com/watch?v=BeJ2jpD1q30",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-289",
+    "artist": "Twisted Sister",
+    "title": "I Wanna Rock",
+    "category": "electric",
+    "priority": false,
+    "url": "https://mychords.net/twisted-sister/180289-twisted-sister-i-wanna-rock.html",
+    "extra_url": "https://www.youtube.com/watch?v=n3TlcwJEvXE",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-290",
+    "artist": "5’nizza, Ulf Lindemann",
+    "title": "Ja Soldat — Dunkelbunt Remix",
+    "category": "remix",
+    "priority": false,
+    "url": "https://akkords.pro/songs/5nizza/soldat/",
+    "extra_url": "https://amdm.one/pyatnitsa/ya-soldat/",
+    "resource_type": "chords"
+  },
+  {
+    "id": "song-291",
+    "artist": "Foster The People",
+    "title": "Pumped Up Kicks — Pete Goodings Stella Polaris Remix",
+    "category": "remix",
+    "priority": false,
+    "url": "https://www.e-chords.com/chords/foster-the-people/pumped-up-kicks",
+    "extra_url": "https://www.youtube.com/watch?v=iB-laFwQ9fM",
+    "resource_type": "chords"
+  }
+]
