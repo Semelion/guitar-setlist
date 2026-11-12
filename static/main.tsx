@@ -15,14 +15,14 @@ const root=createRoot(document.getElementById('root')!);
  if(roomParam&&isGuest){
   localStorage.setItem('nastrunakh.viewer.room',roomParam);
   const {ViewerApp}=await import('./viewer');
-  root.render(<ViewerApp room={roomParam}/>);
+  root.render(<ViewerApp key={roomParam} room={roomParam}/>);
  }else if(roomParam&&hasAdminToken){
   const {AdminShell}=await import('./admin-shell');
   root.render(<AdminShell/>);
  }else if(roomParam){
   localStorage.setItem('nastrunakh.viewer.room',roomParam);
   const {ViewerApp}=await import('./viewer');
-  root.render(<ViewerApp room={roomParam}/>);
+  root.render(<ViewerApp key={roomParam} room={roomParam}/>);
  }else{
   const {Gate}=await import('./gate');
   root.render(<Gate lastRoom={localStorage.getItem('nastrunakh.viewer.room')} onAdmin={r=>location.replace('?room='+encodeURIComponent(r))}/>);
