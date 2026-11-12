@@ -1,7 +1,7 @@
 import { env } from 'cloudflare:workers';
 import {getChatGPTUser} from '../../chatgpt-auth';
 import seedCsv from '../../../lib/catalog.csv?raw';
-import {csvDecode,csvEncode,emptySession,validateSession,validateSong,type Song} from '../../../lib/core';
+import {csvDecode,csvEncode,emptySession,validateSession,validateSong} from '../../../lib/core';
 export const dynamic='force-dynamic';
 const json=(x:unknown,status=200)=>Response.json(x,{status,headers:{'Cache-Control':'no-store'}});
 async function context(){const user=await getChatGPTUser();if(!user)return null;const bucket=(env as unknown as {BUCKET:R2Bucket}).BUCKET;if(!bucket)throw Error('Хранилище не подключено');return{bucket,prefix:'users/'+encodeURIComponent(user.userId)+'/'};}

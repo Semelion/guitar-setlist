@@ -510,7 +510,7 @@ test('local fallback reports poll, supplies cache and ACKs commands without WebR
  globalThis.BroadcastChannel=FakeBroadcastChannel;
  setupNetwork();
  // A signaling outage is distinct from a taken host ID.
- setCustomPeerFactory(id=>{throw new Error('signaling unavailable');});
+ setCustomPeerFactory(()=>{throw new Error('signaling unavailable');});
  const host=getOrCreateHostSession('local');host.addPublisherRef();
  const commands=[];host.addReceiverRef(cmd=>commands.push(cmd));host.publish(state());
  const states=[],statuses=[];

@@ -1,4 +1,4 @@
-import {useEffect,useRef,useState} from 'react';
+import {useCallback,useEffect,useRef,useState} from 'react';
 import {createCommandSender,createViewer,type ViewerStatus} from './room-client';
 import {
  genEventId,
@@ -10,6 +10,7 @@ import {
 } from './room-core';
 import './viewer.css';
 
+const now=()=>Date.now();
 const stText:Record<ViewerStatus,string>={
  connecting:'подключение…',
  live:'в эфире',
@@ -38,51 +39,40 @@ export function ViewerApp({room}:{room:string}){
  const [customArtist,setCustomArtist]=useState('');
  const [customTitle,setCustomTitle]=useState('');
  const [customUrl,setCustomUrl]=useState('');
- const [customCat,setCustomCat]=useState('ru');
+ const [customCat]=useState('ru');
  const [suggestNotice,setSuggestNotice]=useState('');
- const [timeLeft,setTimeLeft]=useState<number|null>(null);
+ const [timeLeft,setTimeLeft]=useState<{endsAt:number;left:number}|null>(null);
 
  const cmdSenderRef=useRef<ReturnType<typeof createCommandSender>|null>(null);
 
- useEffect(()=>{
-  setRs(null);setMyVote(null);setMyAnswer(null);
-  cmdSenderRef.current=createCommandSender(roomCmdTopic(room));
-  const v=createViewer(roomTopic(room),setRs,setStatus);
-  return()=>{v.close();(cmdSenderRef.current as {close?:()=>void}|null)?.close?.();cmdSenderRef.current=null;};
- },[room]);
-
- // Restore myVote and myAnswer from sessionStorage when rs updates
- useEffect(()=>{
-  if(!rs)return;
-  // Restore vote for current round
+ // Restore vote/answer from sessionStorage whenever a snapshot arrives.
+ const restoreInteraction=useCallback((next:RoomState)=>{
   try{
-   const savedVote=sessionStorage.getItem(`nastrunakh.vote.${room}.${guestId}.${rs.round}`);
-   if(savedVote&&(!myVote||myVote.round!==rs.round)){
-    setMyVote({round:rs.round,songId:savedVote});
-   }
+   const savedVote=sessionStorage.getItem(`nastrunakh.vote.${room}.${guestId}.${next.round}`);
+   if(savedVote)setMyVote(prev=>prev&&prev.round===next.round?prev:{round:next.round,songId:savedVote});
   }catch{}
-
-  // Restore answer for current quiz round
-  if(rs.quiz){
+  const quiz=next.quiz;
+  if(quiz){
    try{
-    const savedAns=sessionStorage.getItem(`nastrunakh.ans.${room}.${guestId}.${rs.quiz.round}`);
-    if(savedAns!==null&&(!myAnswer||myAnswer.round!==rs.quiz.round)){
-     setMyAnswer({round:rs.quiz.round,optionIndex:Number(savedAns)});
-    }
+    const savedAns=sessionStorage.getItem(`nastrunakh.ans.${room}.${guestId}.${quiz.round}`);
+    if(savedAns!==null)setMyAnswer(prev=>prev&&prev.round===quiz.round?prev:{round:quiz.round,optionIndex:Number(savedAns)});
    }catch{}
   }
- },[rs,room]);
+ },[room,guestId]);
+
+ useEffect(()=>{
+  cmdSenderRef.current=createCommandSender(roomCmdTopic(room));
+  const v=createViewer(roomTopic(room),next=>{setRs(next);restoreInteraction(next);},setStatus);
+  return()=>{v.close();(cmdSenderRef.current as {close?:()=>void}|null)?.close?.();cmdSenderRef.current=null;};
+ },[room,restoreInteraction]);
 
  // 20s Countdown Timer calculation
  useEffect(()=>{
-  if(!rs?.quiz||rs.phase!=='quiz'){
-   setTimeLeft(null);
-   return;
-  }
-  const endsAt=rs.quiz.endsAt;
+  const endsAt=rs?.quiz&&rs.phase==='quiz'?rs.quiz.endsAt:null;
+  if(endsAt===null)return;
   const updateTimer=()=>{
-   const diff=Math.max(0,Math.ceil((endsAt-Date.now())/1000));
-   setTimeLeft(diff);
+   const diff=Math.max(0,Math.ceil((endsAt-now())/1000));
+   setTimeLeft({endsAt,left:diff});
   };
   updateTimer();
   const t=setInterval(updateTimer,200);
@@ -115,13 +105,13 @@ export function ViewerApp({room}:{room:string}){
    type:'vote',
    round:rs.round,
    songId,
-   ts:Date.now(),
+   ts:now(),
   });
   if(!sent){setMyVote(null);try{sessionStorage.removeItem(`nastrunakh.vote.${room}.${guestId}.${rs.round}`);}catch{}}
  };
 
  const submitQuizAnswer=async(optionIndex:number)=>{
-  if(!guestName.trim()||!rs?.quiz||rs.phase!=='quiz'||Date.now()>=rs.quiz.endsAt||myAnswer?.round===rs.quiz.round)return;
+  if(!guestName.trim()||!rs?.quiz||rs.phase!=='quiz'||now()>=rs.quiz.endsAt||myAnswer?.round===rs.quiz.round)return;
   setMyAnswer({round:rs.quiz.round,optionIndex});
   try{sessionStorage.setItem(`nastrunakh.ans.${room}.${guestId}.${rs.quiz.round}`,String(optionIndex));}catch{}
   const sent=await sendCmd({
@@ -132,7 +122,7 @@ export function ViewerApp({room}:{room:string}){
    type:'quiz_answer',
    round:rs.quiz.round,
    optionIndex,
-   ts:Date.now(),
+   ts:now(),
   });
   if(!sent){setMyAnswer(null);try{sessionStorage.removeItem(`nastrunakh.ans.${room}.${guestId}.${rs.quiz.round}`);}catch{}}
  };
@@ -145,7 +135,7 @@ export function ViewerApp({room}:{room:string}){
    participantId:guestId,
    participantName:guestName,
    type:'suggest',
-   ts:Date.now(),
+   ts:now(),
    custom:{
     artist:customArtist.trim(),
     title:customTitle.trim(),
@@ -163,6 +153,8 @@ export function ViewerApp({room}:{room:string}){
 
  const song=rs?rs.active??(rs.mode==='play'?rs.next:null):null;
  const label=rs?.active?'СЕЙЧАС ИГРАЕМ':song?'СЛЕДУЮЩАЯ':'ИДЁТ ОТБОР ПЕСЕН';
+ const quizEndsAt=rs?.quiz&&rs.phase==='quiz'?rs.quiz.endsAt:null;
+ const left=timeLeft&&quizEndsAt!==null&&timeLeft.endsAt===quizEndsAt?timeLeft.left:null;
 
  return <div className="v-page">
   <header className="v-top">
@@ -193,7 +185,7 @@ export function ViewerApp({room}:{room:string}){
     {rs.phase==='quiz'&&rs.quiz?<section className="v-quiz-card" aria-label="Музыкальный квиз">
      <div className="v-quiz-head">
       <span className="v-quiz-tag">⚡ МУЗЫКАЛЬНЫЙ КВИЗ · РАУНД {rs.quiz.round}</span>
-      <span className="v-quiz-timer">⏱ {timeLeft!==null?timeLeft+' с':'20 с'}</span>
+      <span className="v-quiz-timer">⏱ {left!==null?left+' с':'20 с'}</span>
      </div>
      <h1 className="v-quiz-question">Какую песню сейчас сыграет ведущий?</h1>
      <p className="v-quiz-sub">Выберите один из 3 вариантов:</p>
@@ -204,7 +196,7 @@ export function ViewerApp({room}:{room:string}){
        return <button
         key={opt.index}
         className={'v-quiz-opt '+(isSelected?'selected':'')+(isLocked?' locked':'')}
-        disabled={isLocked||!guestName||timeLeft===0}
+        disabled={isLocked||!guestName||left===0}
         onClick={()=>submitQuizAnswer(opt.index)}
        >
         <span className="v-opt-num">0{opt.index+1}</span>
@@ -312,7 +304,7 @@ export function ViewerApp({room}:{room:string}){
      <h3>Предложить песню ведущему</h3>
      <button className="icon-button" onClick={()=>setSuggestModal(false)}>✕</button>
     </div>
-    {rs?.catalog&&<form className="v-suggest-form" onSubmit={async e=>{e.preventDefault();if(!catalogChoice||!guestName)return;const sent=await sendCmd({v:1,eventId:genEventId(),participantId:guestId,participantName:guestName,type:'suggest',ts:Date.now(),songId:catalogChoice});if(sent)setSuggestNotice('Песня из каталога предложена ведущему');}}>
+    {rs?.catalog&&<form className="v-suggest-form" onSubmit={async e=>{e.preventDefault();if(!catalogChoice||!guestName)return;const sent=await sendCmd({v:1,eventId:genEventId(),participantId:guestId,participantName:guestName,type:'suggest',ts:now(),songId:catalogChoice});if(sent)setSuggestNotice('Песня из каталога предложена ведущему');}}>
      <label>Из каталога<select value={catalogChoice} onChange={e=>setCatalogChoice(e.target.value)} required><option value="">Выберите песню</option>{rs.catalog.map(s=><option key={s.songId} value={s.songId}>{s.artist} — {s.title}</option>)}</select></label>
      <button className="button primary" type="submit">Предложить из каталога</button>
     </form>}

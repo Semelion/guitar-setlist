@@ -15,25 +15,25 @@ export type PeerTransportMessage=PeerSnapshotMessage|PeerCommandMessage|PeerAckM
 export interface IPeerDataConnection{
  readonly peer:string;
  readonly open:boolean;
- send(data:any):void;
+ send(data:unknown):void;
  close():void;
- on(event:'open'|'close'|'error',cb:(...args:any[])=>void):this;
- on(event:'data',cb:(data:any)=>void):this;
- off?(event:string,cb?:(...args:any[])=>void):this;
+ on(event:'open'|'close'|'error',cb:(...args:unknown[])=>void):this;
+ on(event:'data',cb:(data:unknown)=>void):this;
+ off?(event:string,cb?:(...args:unknown[])=>void):this;
 }
 export interface IPeer{
  readonly id:string;
  readonly destroyed:boolean;
  readonly disconnected:boolean;
- connect(peerId:string,options?:any):IPeerDataConnection;
+ connect(peerId:string,options?:unknown):IPeerDataConnection;
  reconnect():void;
  disconnect():void;
  destroy():void;
  on(event:'open',cb:(id:string)=>void):this;
  on(event:'connection',cb:(conn:IPeerDataConnection)=>void):this;
- on(event:'error',cb:(err:any)=>void):this;
+ on(event:'error',cb:(err:unknown)=>void):this;
  on(event:'close'|'disconnected',cb:()=>void):this;
- off?(event:string,cb?:(...args:any[])=>void):this;
+ off?(event:string,cb?:(...args:unknown[])=>void):this;
 }
 export type PeerFactory=(id?:string)=>IPeer;
 let customPeerFactory:PeerFactory|null=null;
@@ -53,21 +53,32 @@ export function topicToHostPeerId(topic:string):string{
 const finite=(v:unknown):v is number=>typeof v==='number'&&Number.isFinite(v);
 const integer=(v:unknown):v is number=>finite(v)&&Number.isSafeInteger(v)&&v>=0;
 const textValue=(v:unknown,max=2000):v is string=>typeof v==='string'&&v.length<=max;
-const song=(v:any,url=false):boolean=>!!v&&typeof v==='object'&&textValue(v.artist,300)&&textValue(v.title,300)&&(!url||textValue(v.url));
-function validState(s:any):s is RoomState{
- if(!s||s.v!==1||!textValue(s.room,200)||!['select','play'].includes(s.mode)||!['idle','voting','quiz','revealed'].includes(s.phase)||!integer(s.round)||!integer(s.played)||!finite(s.ts))return false;
+const isObject=(v:unknown):v is Record<string,unknown>=>!!v&&typeof v==='object';
+const oneOf=(v:unknown,values:readonly string[]):boolean=>typeof v==='string'&&values.includes(v);
+const song=(v:unknown,url=false):boolean=>isObject(v)&&textValue(v.artist,300)&&textValue(v.title,300)&&(!url||textValue(v.url));
+const peerErrorInfo=(err:unknown):{type:string;message:string}=>{
+ if(!isObject(err))return{type:'',message:''};
+ return{type:typeof err.type==='string'?err.type:'',message:typeof err.message==='string'?err.message:''};
+};
+function validState(s:unknown):s is RoomState{
+ if(!isObject(s)||s.v!==1||!textValue(s.room,200)||!oneOf(s.mode,['select','play'])||!oneOf(s.phase,['idle','voting','quiz','revealed'])||!integer(s.round)||!integer(s.played)||!finite(s.ts))return false;
  if(!(s.active===null||song(s.active,true))||!(s.next===null||song(s.next,true)))return false;
- if(!Array.isArray(s.queue)||s.queue.length>10000||!s.queue.every((x:any)=>song(x)))return false;
- if(!Array.isArray(s.leaderboard)||s.leaderboard.length>10000||!s.leaderboard.every((x:any)=>x&&textValue(x.participantId,100)&&textValue(x.name,60)&&finite(x.score)))return false;
- for(const key of ['catalog','votingOptions'])if(s[key]!==undefined&&(!Array.isArray(s[key])||s[key].length>10000||!s[key].every((x:any)=>song(x)&&textValue(x.songId,100))))return false;
- if(s.votingTotalVotes!==undefined&&!integer(s.votingTotalVotes))return false;
- if(s.quiz!==undefined){
-  const q=s.quiz;
-  if(!q||!integer(q.round)||!finite(q.startedAt)||!finite(q.durationMs)||!finite(q.endsAt)||!Array.isArray(q.options)||q.options.length>100||!q.options.every((x:any)=>song(x)&&integer(x.index)))return false;
+ const queue=s.queue;
+ if(!Array.isArray(queue)||queue.length>10000||!queue.every((x:unknown)=>song(x)))return false;
+ const leaderboard=s.leaderboard;
+ if(!Array.isArray(leaderboard)||leaderboard.length>10000||!leaderboard.every((x:unknown)=>isObject(x)&&textValue(x.participantId,100)&&textValue(x.name,60)&&finite(x.score)))return false;
+ for(const key of ['catalog','votingOptions'] as const){
+  const list=s[key];
+  if(list!==undefined&&(!Array.isArray(list)||list.length>10000||!list.every((x:unknown)=>song(x)&&isObject(x)&&textValue(x.songId,100))))return false;
  }
- if(s.revealed!==undefined){
-  const r=s.revealed;
-  if(!r||!integer(r.round)||!integer(r.correctOptionIndex)||!song(r.correctSong,true)||!Array.isArray(r.votingResults)||r.votingResults.length>10000||!r.votingResults.every((x:any)=>song(x)&&textValue(x.songId,100)&&integer(x.votes)))return false;
+ if(s.votingTotalVotes!==undefined&&!integer(s.votingTotalVotes))return false;
+ const q=s.quiz;
+ if(q!==undefined){
+  if(!isObject(q)||!integer(q.round)||!finite(q.startedAt)||!finite(q.durationMs)||!finite(q.endsAt)||!Array.isArray(q.options)||q.options.length>100||!q.options.every((x:unknown)=>song(x)&&isObject(x)&&integer(x.index)))return false;
+ }
+ const r=s.revealed;
+ if(r!==undefined){
+  if(!isObject(r)||!integer(r.round)||!integer(r.correctOptionIndex)||!song(r.correctSong,true)||!Array.isArray(r.votingResults)||r.votingResults.length>10000||!r.votingResults.every((x:unknown)=>song(x)&&isObject(x)&&textValue(x.songId,100)&&integer(x.votes)))return false;
  }
  return true;
 }
@@ -117,10 +128,11 @@ export class HostSession{
     this.setStatus('live');
     this.broadcastSnapshot();
    });
-   peer.on('error',(err:any)=>{
+   peer.on('error',(err:unknown)=>{
     if(this.destroyed||this.peer!==peer)return;
-    console.warn('Room host transport:',err?.type||err?.message||'connection failed');
-    if(err?.type==='unavailable-id'||String(err?.message||'').includes('is taken')){
+    const info=peerErrorInfo(err);
+    console.warn('Room host transport:',info.type||info.message||'connection failed');
+    if(info.type==='unavailable-id'||info.message.includes('is taken')){
      this.hasCollisionError=true;
      for(const conn of this.activeConns){try{conn.close();}catch{}}
      this.activeConns.clear();
@@ -159,8 +171,8 @@ export class HostSession{
    });
   }catch{this.setStatus('offline');this.scheduleReconnect();}
  }
- private receive(raw:any,reply:(msg:any)=>void):void{
-  if(!raw||typeof raw!=='object')return;
+ private receive(raw:unknown,reply:(msg:PeerTransportMessage)=>void):void{
+  if(!isObject(raw))return;
   if(raw.type==='command'){
    const valid=validateGuestCommand(raw.cmd);
    let ok=false;
@@ -270,23 +282,25 @@ export class GuestSession{
    this.bc.postMessage({type:'ping',ts:Date.now()});
   }catch{}
  }
- private receive(raw:any,local:boolean):void{
-  if(!raw||typeof raw!=='object')return;
+ private receive(raw:unknown,local:boolean):void{
+  if(!isObject(raw))return;
   if(raw.type==='snapshot'){
-   if(!validState(raw.state)||!finite(raw.ts)||raw.ts!==raw.state.ts||!integer(raw.seq)||!textValue(raw.epoch,100)||!raw.epoch)return;
-   if(this.retiredEpochs.has(raw.epoch))return;
-   if(this.lastEpoch!==raw.epoch){
+   const state=raw.state,ts=raw.ts,seq=raw.seq,epoch=raw.epoch;
+   if(!validState(state)||!finite(ts)||ts!==state.ts||!integer(seq)||!textValue(epoch,100)||!epoch)return;
+   if(this.retiredEpochs.has(epoch))return;
+   if(this.lastEpoch!==epoch){
     if(this.lastEpoch)this.retiredEpochs.add(this.lastEpoch);
-    this.lastEpoch=raw.epoch;this.lastStateSeq=-1;this.lastStateTs=-Infinity;
+    this.lastEpoch=epoch;this.lastStateSeq=-1;this.lastStateTs=-Infinity;
    }
-   if(raw.seq<=this.lastStateSeq||raw.ts<this.lastStateTs)return;
-   this.lastStateTs=raw.ts;this.lastStateSeq=raw.seq;this.lastState=raw.state;
-   for(const cb of this.stateListeners){try{cb(raw.state);}catch{}}
+   if(seq<=this.lastStateSeq||ts<this.lastStateTs)return;
+   this.lastStateTs=ts;this.lastStateSeq=seq;this.lastState=state;
+   for(const cb of this.stateListeners){try{cb(state);}catch{}}
   }else if(raw.type==='ack'){
-   if(typeof raw.eventId!=='string'||typeof raw.ok!=='boolean')return;
-   const pending=this.pendingAcks.get(raw.eventId);
+   const eventId=raw.eventId,ok=raw.ok;
+   if(typeof eventId!=='string'||typeof ok!=='boolean')return;
+   const pending=this.pendingAcks.get(eventId);
    if(!pending||pending.local!==local)return;
-   clearTimeout(pending.timer);this.pendingAcks.delete(raw.eventId);pending.resolve(raw.ok);
+   clearTimeout(pending.timer);this.pendingAcks.delete(eventId);pending.resolve(ok);
   }else if(raw.type==='pong'){
    if(!finite(raw.ts))return;
   }else return;
@@ -300,9 +314,10 @@ export class GuestSession{
   try{
    const peer=createPeerInstance();this.guestPeer=peer;
    peer.on('open',()=>{if(!this.destroyed&&this.guestPeer===peer)this.connectToHost();});
-   peer.on('error',(err:any)=>{
+   peer.on('error',(err:unknown)=>{
     if(this.destroyed||this.guestPeer!==peer)return;
-    console.warn('Room guest transport:',err?.type||err?.message||'connection failed');
+    const info=peerErrorInfo(err);
+    console.warn('Room guest transport:',info.type||info.message||'connection failed');
     this.handleDisconnect();
    });
    peer.on('disconnected',()=>{
@@ -339,7 +354,10 @@ export class GuestSession{
    };
    conn.on('data',raw=>{
     if(this.destroyed||this.activeConn!==conn)return;
-    if(raw?.type==='ping'&&finite(raw.ts)){try{conn.send({type:'pong',ts:raw.ts});}catch{}return;}
+    if(isObject(raw)&&raw.type==='ping'){
+     const ts=raw.ts;
+     if(finite(ts)){try{conn.send({type:'pong',ts});}catch{}return;}
+    }
     this.receive(raw,false);
    });
    conn.on('close',()=>{if(this.activeConn===conn)this.handleDisconnect();});
