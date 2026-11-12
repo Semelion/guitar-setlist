@@ -135,7 +135,7 @@
 .admin-chords-drawer{position:fixed;top:76px;right:18px;z-index:45;width:min(420px,calc(100vw - 36px));background:#232923;border:1px solid #4e5e40;border-radius:18px;padding:18px;display:flex;flex-direction:column;gap:10px;box-shadow:0 24px 50px #000c}
 .chords-drawer-head{display:flex;justify-content:space-between;align-items:center}
 .chords-drawer-head h3{margin:0;font-size:16px;color:#f2f4e8}
-.chords-drawer-textarea{width:100%;background:#1a1e19;border:1px solid #3c4837;border-radius:10px;padding:10px;color:#f0f2e4;font-family:monospace;font-size:12px;line-height:1.45;resize:vertical}
+.chords-drawer-textarea{width:100%;background:#1a1e19;border:1px solid #3c4837;border-radius:10px;padding:10px;color:#f0f2e4;font-family:monospace;font-size:12px;line-height:1.45;resize:vertical}.chords-import-row{display:flex;align-items:center;gap:10px;flex-wrap:wrap}.chord-spinner{width:14px;height:14px;border:2px solid currentColor;border-right-color:transparent;border-radius:50%;display:inline-block;animation:chord-spin .8s linear infinite}.chords-import-error{margin:0;font-size:12px;line-height:1.45;color:#ffb4a8}@keyframes chord-spin{to{transform:rotate(360deg)}}
 .chords-drawer-actions{display:flex;justify-content:flex-end}
 
 .suggestions-badge-panel{position:fixed;left:18px;bottom:18px;z-index:40;max-width:320px;background:#232923;border:1px solid #4e5e40;border-radius:16px;padding:14px;display:flex;flex-direction:column;gap:8px;box-shadow:0 16px 36px #0009}
