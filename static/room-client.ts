@@ -1,61 +1,127 @@
-// Браузерный слой комнат: публикация и приём RoomState через публичный брокер ntfy.sh.
-// Админ: createPublisher (debounce 600 мс). Зритель: createViewer (стартовый poll + SSE,
-// при обрыве SSE — статус 'poll' и повторный poll каждые 5 с, пока соединение не восстановится).
-import {parseNtfyEvent,parseNtfyPoll,type RoomState} from './room-core';
+// Браузерный слой комнат через PeerJS / WebRTC data connections:
+// - createPublisher: публикация RoomState хостом-админом через WebRTC DataConnections + BroadcastChannel
+// - createViewer: приём RoomState зрителями напрямую от хоста
+// - createCommandSender: надёжная отправка команд гостем хосту с подтверждением (Transport ACK)
+// - createCommandReceiver: приём команд гостей хостом-админом
+import {
+ getOrCreateGuestSession,
+ getOrCreateHostSession,
+ type PubStatus,
+ type ViewerStatus,
+} from './peer-transport.ts';
+import type {GuestCommand,RoomState} from './room-core.ts';
 
 export const NTFY='https://ntfy.sh';
-export const PUBLISH_DEBOUNCE=600;
+export const PUBLISH_DEBOUNCE=150;
 export const POLL_INTERVAL=5000;
-export type PubStatus='idle'|'ok'|'offline';
-export type ViewerStatus='connecting'|'live'|'poll'|'offline';
+export type {PubStatus,ViewerStatus};
 
-export function createPublisher(topic:string):{publish(rs:RoomState):void;status():PubStatus;close():void}{
- let st:PubStatus='idle',last:RoomState|null=null,timer:ReturnType<typeof setTimeout>|null=null,closed=false;
- const flush=async()=>{
-  timer=null;if(closed||!last)return;
-  try{const r=await fetch(NTFY+'/'+topic,{method:'POST',body:JSON.stringify(last)});if(!closed)st=r.ok?'ok':'offline';}catch{if(!closed)st='offline';}
+export function createPublisher(topic:string):{
+ publish(rs:RoomState):void;
+ status():PubStatus;
+ close():void;
+}{
+ const host=getOrCreateHostSession(topic);
+ host.addPublisherRef();
+ let timer:ReturnType<typeof setTimeout>|null=null;
+ let last:RoomState|null=null;
+ let closed=false;
+
+ const flush=()=>{
+  timer=null;
+  if(closed||!last)return;
+  host.publish(last);
  };
+
  return {
-  publish(rs:RoomState){if(closed)return;last=rs;if(timer)clearTimeout(timer);timer=setTimeout(()=>void flush(),PUBLISH_DEBOUNCE);},
-  status(){return st;},
-  close(){closed=true;if(timer)clearTimeout(timer);timer=null;},
+  publish(rs:RoomState){
+   if(closed)return;
+   last=rs;
+   if(timer)clearTimeout(timer);
+   timer=setTimeout(flush,PUBLISH_DEBOUNCE);
+  },
+  status(){
+   return host.getPubStatus();
+  },
+  close(){
+   if(closed)return;
+   closed=true;
+   if(timer){
+    clearTimeout(timer);
+    timer=null;
+   }
+   host.removePublisherRef();
+  },
  };
 }
 
-export function createViewer(topic:string,onState:(rs:RoomState)=>void,onStatus:(s:ViewerStatus)=>void):{close():void}{
- let es:EventSource|null=null,timer:ReturnType<typeof setInterval>|null=null,closed=false;
- const pollUrl=NTFY+'/'+topic+'/json?poll=1&since=all';
- const drop=()=>{if(timer){clearInterval(timer);timer=null;}};
- const poll=async():Promise<boolean>=>{
-  try{
-   const r=await fetch(pollUrl);if(!r.ok)throw Error('HTTP '+r.status);
-   const rs=parseNtfyPoll(await r.text());
-   if(closed)return false;
-   if(rs)onState(rs);
-   return true;
-  }catch{return false;}
- };
- const open=()=>{
-  if(closed||es)return;
-  es=new EventSource(NTFY+'/'+topic+'/sse');
-  es.onmessage=e=>{const rs=parseNtfyEvent(e.data);if(rs&&!closed)onState(rs);};
-  es.onopen=()=>{drop();if(!closed)onStatus('live');};
-  es.onerror=()=>{
+export function createViewer(
+ topic:string,
+ onState:(rs:RoomState)=>void,
+ onStatus:(s:ViewerStatus)=>void
+):{close():void}{
+ const guest=getOrCreateGuestSession(topic);
+ let closed=false;
+ const unsubscribe=guest.addViewerRef(
+  (rs)=>{
+   if(!closed)onState(rs);
+  },
+  (st)=>{
+   if(!closed)onStatus(st);
+  }
+ );
+
+ return {
+  close(){
    if(closed)return;
-   onStatus('poll');
-   if(es&&es.readyState===EventSource.CLOSED){es.close();es=null;}
-   if(!timer)timer=setInterval(()=>void tick(),POLL_INTERVAL);
-  };
+   closed=true;
+   unsubscribe();
+  },
  };
- const tick=async()=>{
-  if(closed)return;
-  if(!es)open();
-  const ok=await poll();
-  if(closed)return;
-  if(!ok)onStatus('offline');
-  else if(!es||es.readyState!==EventSource.OPEN)onStatus('poll');
+}
+
+export function createCommandSender(cmdTopic:string):{
+ send(cmd:GuestCommand):Promise<boolean>;
+ close():void;
+}{
+ const guest=getOrCreateGuestSession(cmdTopic);
+ guest.addSenderRef();
+ let closed=false;
+
+ return {
+  async send(cmd:GuestCommand):Promise<boolean>{
+   if(closed)return false;
+   return guest.sendCommand(cmd);
+  },
+  close(){
+   if(closed)return;
+   closed=true;
+   guest.removeSenderRef();
+  },
  };
- onStatus('connecting');
- void (async()=>{await poll();open();})();
- return {close(){closed=true;drop();if(es){es.close();es=null;}}};
+}
+
+export function createCommandReceiver(
+ cmdTopic:string,
+ onCommand:(cmd:GuestCommand)=>void,
+ onStatus?:(s:ViewerStatus)=>void
+):{close():void}{
+ const host=getOrCreateHostSession(cmdTopic);
+ let closed=false;
+ const unsubscribe=host.addReceiverRef(
+  (cmd)=>{
+   if(!closed)onCommand(cmd);
+  },
+  (st)=>{
+   if(!closed&&onStatus)onStatus(st);
+  }
+ );
+
+ return {
+  close(){
+   if(closed)return;
+   closed=true;
+   unsubscribe();
+  },
+ };
 }
